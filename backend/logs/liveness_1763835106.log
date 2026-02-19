@@ -1,0 +1,17 @@
+2025-11-22 23:45:19,790 [INFO] Loading CNN liveliness model from: Model/model.h5
+2025-11-22 23:45:19,801 [ERROR] Failed to load CNN model: [Errno 2] Unable to synchronously open file (unable to open file: name = 'Model/model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 549, in _load_cnn_model
+    self.cnn_model = load_model(self.cnn_model_path)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 118, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\h5py\_hl\files.py", line 566, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\h5py\_hl\files.py", line 241, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 104, in h5py.h5f.open
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'Model/model.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)

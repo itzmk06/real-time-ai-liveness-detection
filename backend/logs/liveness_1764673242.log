@@ -1,0 +1,28 @@
+2025-12-02 16:30:42,860 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-12-02 16:30:47,148 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-12-02 16:30:47,148 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-12-02 16:30:47,339 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-02 16:30:47,347 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-12-02 16:30:47,347 [INFO] Model loaded.
+2025-12-02 16:30:47,531 [INFO] CNN warmup done.
+2025-12-02 16:30:47,531 [INFO] Preloading DeepFace Facenet model...
+2025-12-02 16:30:49,270 [INFO] DeepFace preloaded.
+2025-12-02 16:30:49,272 [INFO] Embedding worker started.
+2025-12-02 16:30:50,383 [INFO] Starting capture loop on camera 0
+2025-12-02 16:30:54,618 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=b89b8a771c702df8)
+2025-12-02 16:30:54,885 [INFO] Say 'HELLO' challenge confirmed.
+2025-12-02 16:30:55,237 [INFO] Smile challenge confirmed.
+2025-12-02 16:30:55,863 [INFO] Turn-right challenge confirmed.
+2025-12-02 16:30:59,459 [INFO] Turn-left challenge confirmed.
+2025-12-02 16:31:01,790 [INFO] Blink challenge confirmed.
+2025-12-02 16:31:01,791 [INFO] Sustained high-frame acceptance (streak=10)
+2025-12-02 16:31:01,792 [INFO] FINAL VERDICT: Live Verified (sustained-pass)
+2025-12-02 16:31:09,418 [INFO] Saved live image: live_captures\live_20251202_110101.jpg
+2025-12-02 16:31:09,423 [INFO] Saved template embedding: embeddings\embed_20251202_110101.npy
+2025-12-02 16:31:09,423 [INFO] Saved metadata: embeddings\meta_20251202_110101.json
+2025-12-02 16:31:09,423 [INFO] Embedding SHA256 (salted): 8186ee285f022d2bcf9286229da477e54433c0e8b6c1d8476a658f7a3ef79528
+2025-12-02 16:31:09,445 [INFO] Stopping capture loop due to final verdict.
+2025-12-02 16:31:09,595 [INFO] [embed-worker] Exiting.
+2025-12-02 16:31:09,836 [INFO] Capture loop stopped.
+2025-12-02 16:31:09,839 [INFO] Shutdown requested.
+2025-12-02 16:31:09,840 [INFO] Shutdown complete.

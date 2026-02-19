@@ -1,0 +1,25 @@
+2025-11-23 01:45:50,199 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 01:45:50,506 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 01:45:50,523 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 01:45:50,525 [INFO] Model loaded.
+2025-11-23 01:45:50,758 [INFO] CNN warmup done.
+2025-11-23 01:45:50,758 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 01:45:52,873 [INFO] DeepFace preloaded.
+2025-11-23 01:45:52,875 [INFO] Embedding worker started.
+2025-11-23 01:45:54,096 [INFO] Starting capture loop on camera 0
+2025-11-23 01:45:56,650 [INFO] Stabilization complete — sequence: ['SMILE', 'BLINK', 'TURN_RIGHT', 'SAY_HELLO', 'TURN_LEFT', 'DONE'] (nonce=f9deee0f99a1c02f)
+2025-11-23 01:45:57,915 [INFO] Smile challenge confirmed.
+2025-11-23 01:45:58,927 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 01:45:59,127 [INFO] Turn-right challenge confirmed.
+2025-11-23 01:46:10,694 [INFO] Turn-left challenge confirmed.
+2025-11-23 01:46:16,058 [INFO] Blink challenge confirmed.
+2025-11-23 01:46:16,060 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 01:46:20,200 [INFO] Saved live image: live_captures\live_20251122_201616.jpg
+2025-11-23 01:46:20,210 [INFO] Saved template embedding: embeddings\embed_20251122_201616.npy
+2025-11-23 01:46:20,221 [INFO] Saved metadata: embeddings\meta_20251122_201616.json
+2025-11-23 01:46:20,226 [INFO] Embedding SHA256 (salted): 4cb67f390521e68bedb0518b19712405dae052ba7d444fafdde2779ca8fd75fe
+2025-11-23 01:46:20,285 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 01:46:20,365 [INFO] [embed-worker] Exiting.
+2025-11-23 01:46:20,634 [INFO] Capture loop stopped.
+2025-11-23 01:46:20,642 [INFO] Shutdown requested.
+2025-11-23 01:46:20,642 [INFO] Shutdown complete.

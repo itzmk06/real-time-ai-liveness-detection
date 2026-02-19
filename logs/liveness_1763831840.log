@@ -1,0 +1,76 @@
+2025-11-22 22:47:20,555 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-22 22:47:20,782 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-22 22:47:20,797 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-22 22:47:20,797 [INFO] Model loaded.
+2025-11-22 22:47:20,957 [INFO] CNN warmup done.
+2025-11-22 22:47:20,957 [INFO] Preloading DeepFace Facenet model...
+2025-11-22 22:47:22,605 [INFO] DeepFace preloaded.
+2025-11-22 22:47:22,605 [INFO] Embedding worker started.
+2025-11-22 22:47:23,506 [INFO] Starting capture loop on camera 0
+2025-11-22 22:47:40,232 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'TURN_RIGHT', 'BLINK', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=c3d01857882f9b87)
+2025-11-22 22:47:41,326 [INFO] Smile challenge confirmed.
+2025-11-22 22:47:42,019 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:47:42,117 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:47:45,574 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:48:04,486 [INFO] Blink challenge confirmed.
+2025-11-22 22:48:04,486 [INFO] Final Verdict: Live Verified (avg_live=1.000, progress=100%, z_mean=0.004748, peak_live=1.000, aligned=6)
+2025-11-22 22:48:04,486 [INFO] Scheduled embedding task.
+2025-11-22 22:48:04,486 [INFO] [embed-worker] Creating embedding (verdict=Live Verified, frames=6)
+2025-11-22 22:48:07,553 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:48:10,639 [INFO] Saved live image: live_captures\live_20251122_171804.jpg
+2025-11-22 22:48:10,639 [INFO] Saved template embedding: embeddings\embed_20251122_171804.npy
+2025-11-22 22:48:10,639 [INFO] Saved metadata: embeddings\meta_20251122_171804.json
+2025-11-22 22:48:10,639 [INFO] Embedding SHA256 (salted): 8ae96f11f90cb742dfa59da9740fbe196d5f3168cb5ab98cb4bdf8002a1f21e8
+2025-11-22 22:48:10,639 [INFO] [embed-worker] Embedding saved: embeddings\embed_20251122_171804.npy
+2025-11-22 22:48:15,716 [INFO] Stabilization complete — sequence: ['SMILE', 'BLINK', 'TURN_LEFT', 'SAY_HELLO', 'TURN_RIGHT', 'DONE'] (nonce=171a036454b814df)
+2025-11-22 22:48:16,747 [INFO] Smile challenge confirmed.
+2025-11-22 22:48:17,779 [INFO] Blink challenge confirmed.
+2025-11-22 22:48:38,548 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:48:41,984 [WARNING] Final Verdict (immediate DONE): Spoof Detected
+2025-11-22 22:48:44,817 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:48:51,500 [INFO] Stabilization complete — sequence: ['SMILE', 'TURN_LEFT', 'BLINK', 'TURN_RIGHT', 'SAY_HELLO', 'DONE'] (nonce=b37f940db3760f2f)
+2025-11-22 22:48:52,067 [INFO] Smile challenge confirmed.
+2025-11-22 22:48:53,510 [INFO] Blink challenge confirmed.
+2025-11-22 22:49:09,436 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:49:11,341 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:49:19,432 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-22 22:49:19,432 [INFO] Scheduled embedding task.
+2025-11-22 22:49:19,432 [INFO] [embed-worker] Creating embedding (verdict=Live Verified (DONE-minimums), frames=6)
+2025-11-22 22:49:22,259 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:49:24,162 [INFO] Saved live image: live_captures\live_20251122_171919.jpg
+2025-11-22 22:49:24,164 [INFO] Saved template embedding: embeddings\embed_20251122_171919.npy
+2025-11-22 22:49:24,164 [INFO] Saved metadata: embeddings\meta_20251122_171919.json
+2025-11-22 22:49:24,164 [INFO] Embedding SHA256 (salted): b86a8e4b0b5cb4b6577c2ede8ded3a0229c3020feb5edbc5100b809ce18ba870
+2025-11-22 22:49:24,164 [INFO] [embed-worker] Embedding saved: embeddings\embed_20251122_171919.npy
+2025-11-22 22:49:29,938 [INFO] Stabilization complete — sequence: ['SAY_HELLO', 'TURN_RIGHT', 'TURN_LEFT', 'BLINK', 'SMILE', 'DONE'] (nonce=7c355d0dccfcacd4)
+2025-11-22 22:49:30,367 [INFO] Blink challenge confirmed.
+2025-11-22 22:49:30,565 [INFO] Smile challenge confirmed.
+2025-11-22 22:49:35,622 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:49:37,476 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:49:56,740 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-22 22:49:56,740 [INFO] Scheduled embedding task.
+2025-11-22 22:49:56,740 [INFO] [embed-worker] Creating embedding (verdict=Live Verified (DONE-minimums), frames=6)
+2025-11-22 22:49:59,714 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:50:01,130 [INFO] Saved live image: live_captures\live_20251122_171956.jpg
+2025-11-22 22:50:01,135 [INFO] Saved template embedding: embeddings\embed_20251122_171956.npy
+2025-11-22 22:50:01,137 [INFO] Saved metadata: embeddings\meta_20251122_171956.json
+2025-11-22 22:50:01,137 [INFO] Embedding SHA256 (salted): 9d9ef8c152254cf1356de52f0c9b5684c4571e51e614047704feb6786d49aca3
+2025-11-22 22:50:01,139 [INFO] [embed-worker] Embedding saved: embeddings\embed_20251122_171956.npy
+2025-11-22 22:50:02,467 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'SMILE', 'BLINK', 'SAY_HELLO', 'TURN_RIGHT', 'DONE'] (nonce=7ff2d351484aa3f8)
+2025-11-22 22:50:05,509 [INFO] Stabilization complete — sequence: ['SAY_HELLO', 'SMILE', 'TURN_RIGHT', 'BLINK', 'TURN_LEFT', 'DONE'] (nonce=48fa4328dbafc511)
+2025-11-22 22:50:06,056 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:50:06,432 [INFO] Blink challenge confirmed.
+2025-11-22 22:50:06,656 [INFO] Smile challenge confirmed.
+2025-11-22 22:50:06,960 [INFO] Signal received 2. Shutting down.
+2025-11-22 22:50:06,960 [INFO] Shutdown requested.
+2025-11-22 22:50:07,232 [INFO] [embed-worker] Exiting.
+2025-11-22 22:50:07,232 [INFO] Signal received 2. Shutting down.
+2025-11-22 22:50:07,233 [INFO] Shutdown requested.
+2025-11-22 22:50:09,237 [INFO] Signal received 2. Shutting down.
+2025-11-22 22:50:09,243 [INFO] Shutdown requested.
+2025-11-22 22:50:11,991 [INFO] Shutdown complete.
+2025-11-22 22:50:11,991 [INFO] Shutdown complete.
+2025-11-22 22:50:11,991 [INFO] Shutdown complete.
+2025-11-22 22:50:12,422 [INFO] Capture loop stopped.
+2025-11-22 22:50:12,422 [INFO] Shutdown requested.
+2025-11-22 22:50:12,435 [INFO] Shutdown complete.

@@ -1,0 +1,22 @@
+2025-12-02 16:07:48,786 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-12-02 16:07:50,542 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-12-02 16:07:50,542 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-12-02 16:07:50,777 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-02 16:07:50,777 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-12-02 16:07:50,782 [INFO] Model loaded.
+2025-12-02 16:07:50,956 [INFO] CNN warmup done.
+2025-12-02 16:07:50,956 [INFO] Preloading DeepFace Facenet model...
+2025-12-02 16:07:53,553 [INFO] DeepFace preloaded.
+2025-12-02 16:07:53,553 [INFO] Embedding worker started.
+2025-12-02 16:07:54,807 [INFO] Starting capture loop on camera 0
+2025-12-02 16:07:59,101 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=11f50ef9c9b8d03e)
+2025-12-02 16:07:59,283 [ERROR] run_liveness_once failed: draw_scanner_overlay() missing 1 required positional argument: 'landmarks'
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1426, in run_liveness_once
+    result = det.run(max_runtime_seconds=timeout_seconds)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1334, in run
+    draw_scanner_overlay(frame, x1, y1, x2, y2, now)
+TypeError: draw_scanner_overlay() missing 1 required positional argument: 'landmarks'
+2025-12-02 16:07:59,283 [INFO] Shutdown requested.
+2025-12-02 16:07:59,639 [INFO] [embed-worker] Exiting.
+2025-12-02 16:08:00,045 [INFO] Shutdown complete.

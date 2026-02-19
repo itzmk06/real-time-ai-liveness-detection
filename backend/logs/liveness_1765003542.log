@@ -1,0 +1,22 @@
+2025-12-06 12:15:42,097 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-12-06 12:15:44,438 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-12-06 12:15:44,440 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-12-06 12:15:44,808 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-06 12:15:44,817 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-12-06 12:15:44,817 [INFO] Model loaded.
+2025-12-06 12:15:45,283 [INFO] CNN warmup done.
+2025-12-06 12:15:45,284 [INFO] Preloading DeepFace Facenet model...
+2025-12-06 12:15:48,808 [INFO] DeepFace preloaded.
+2025-12-06 12:15:48,808 [INFO] Embedding worker started.
+2025-12-06 12:15:50,524 [INFO] Starting capture loop on camera 0
+2025-12-06 12:15:54,808 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=9faa3e5cd269aa73)
+2025-12-06 12:15:55,008 [ERROR] run_liveness_once failed: name 'draw_scanner_overlay' is not defined
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1631, in run_liveness_once
+    result = det.run(max_runtime_seconds=timeout_seconds)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1539, in run
+    draw_scanner_overlay(frame, x1, y1, x2, y2, now)
+NameError: name 'draw_scanner_overlay' is not defined. Did you mean: 'draw_scanner_overlay_ultra'?
+2025-12-06 12:15:55,016 [INFO] Shutdown requested.
+2025-12-06 12:15:55,393 [INFO] [embed-worker] Exiting.
+2025-12-06 12:15:55,788 [INFO] Shutdown complete.

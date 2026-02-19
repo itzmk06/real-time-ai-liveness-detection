@@ -1,0 +1,52 @@
+2025-11-22 22:37:54,422 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-22 22:37:54,811 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-22 22:37:54,816 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-22 22:37:54,818 [INFO] Model loaded.
+2025-11-22 22:37:55,331 [INFO] CNN warmup done.
+2025-11-22 22:37:55,332 [INFO] Preloading DeepFace Facenet model...
+2025-11-22 22:37:59,944 [INFO] DeepFace preloaded.
+2025-11-22 22:37:59,947 [INFO] Embedding worker started.
+2025-11-22 22:38:01,987 [INFO] Starting capture loop on camera 0
+2025-11-22 22:38:04,516 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'TURN_RIGHT', 'BLINK', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=a2d04f184166ce73)
+2025-11-22 22:38:04,848 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:38:05,444 [INFO] Blink challenge confirmed.
+2025-11-22 22:38:06,342 [INFO] Smile challenge confirmed.
+2025-11-22 22:38:07,011 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:38:10,514 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:38:10,514 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:38:12,962 [INFO] Stabilization complete — sequence: ['SAY_HELLO', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'BLINK', 'DONE'] (nonce=591a2b7ff32fd2d5)
+2025-11-22 22:38:13,526 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:38:15,743 [INFO] Stabilization complete — sequence: ['TURN_RIGHT', 'SAY_HELLO', 'BLINK', 'TURN_LEFT', 'SMILE', 'DONE'] (nonce=eb908b5eb8bff09a)
+2025-11-22 22:38:15,893 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:38:24,906 [INFO] Stabilization complete — sequence: ['BLINK', 'SMILE', 'TURN_RIGHT', 'SAY_HELLO', 'TURN_LEFT', 'DONE'] (nonce=e433abee178ab80c)
+2025-11-22 22:38:26,045 [INFO] Smile challenge confirmed.
+2025-11-22 22:38:29,660 [INFO] Blink challenge confirmed.
+2025-11-22 22:38:35,228 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:38:36,616 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:38:40,756 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:38:40,756 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:38:43,206 [INFO] Stabilization complete — sequence: ['BLINK', 'SMILE', 'SAY_HELLO', 'TURN_RIGHT', 'TURN_LEFT', 'DONE'] (nonce=8662b38dd52fc033)
+2025-11-22 22:38:43,436 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:38:48,819 [INFO] Stabilization complete — sequence: ['SMILE', 'TURN_RIGHT', 'TURN_LEFT', 'SAY_HELLO', 'BLINK', 'DONE'] (nonce=cda6abf9571a3cce)
+2025-11-22 22:38:49,957 [INFO] Smile challenge confirmed.
+2025-11-22 22:38:50,428 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:38:51,304 [INFO] Blink challenge confirmed.
+2025-11-22 22:38:53,413 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:38:55,427 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:38:55,427 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:38:57,898 [INFO] Stabilization complete — sequence: ['TURN_RIGHT', 'BLINK', 'TURN_LEFT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=d851f19ae97e43ab)
+2025-11-22 22:38:58,066 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:39:00,490 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'SAY_HELLO', 'BLINK', 'SMILE', 'TURN_RIGHT', 'DONE'] (nonce=8fe1b9b2b3e718c5)
+2025-11-22 22:39:00,675 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:39:03,038 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'BLINK', 'SAY_HELLO', 'DONE'] (nonce=2b32d4cea3c2f168)
+2025-11-22 22:39:03,255 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:39:05,520 [INFO] Signal received 2. Shutting down.
+2025-11-22 22:39:05,520 [INFO] Shutdown requested.
+2025-11-22 22:39:05,719 [INFO] [embed-worker] Exiting.
+2025-11-22 22:39:06,100 [INFO] Signal received 2. Shutting down.
+2025-11-22 22:39:06,105 [INFO] Shutdown requested.
+2025-11-22 22:39:06,637 [INFO] Shutdown complete.
+2025-11-22 22:39:06,638 [INFO] Shutdown complete.
+2025-11-22 22:39:06,653 [INFO] Capture loop stopped.
+2025-11-22 22:39:06,654 [INFO] Shutdown requested.
+2025-11-22 22:39:06,655 [INFO] Shutdown complete.

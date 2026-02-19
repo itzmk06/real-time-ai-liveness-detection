@@ -1,0 +1,20 @@
+2025-11-23 02:18:25,489 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 02:18:25,705 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 02:18:25,705 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 02:18:25,705 [INFO] Model loaded.
+2025-11-23 02:18:25,952 [INFO] CNN warmup done.
+2025-11-23 02:18:25,953 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 02:18:27,823 [INFO] DeepFace preloaded.
+2025-11-23 02:18:27,823 [INFO] Embedding worker started.
+2025-11-23 02:18:29,228 [INFO] Starting capture loop on camera 0 (god-ui)
+2025-11-23 02:18:31,817 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'BLINK', 'SAY_HELLO', 'DONE'] (nonce=e747deda94a6fd61)
+2025-11-23 02:18:32,095 [ERROR] Unhandled exception in main run: name '_draw_face_mesh_overlay' is not defined
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1598, in main
+    det.run(max_runtime_seconds=args.max_runtime)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1266, in run
+    _draw_face_mesh_overlay(frame, landmarks, t)
+NameError: name '_draw_face_mesh_overlay' is not defined
+2025-11-23 02:18:32,095 [INFO] Shutdown requested.
+2025-11-23 02:18:32,474 [INFO] [embed-worker] Exiting.
+2025-11-23 02:18:34,169 [INFO] Shutdown complete.

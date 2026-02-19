@@ -1,0 +1,16 @@
+2025-11-23 00:59:50,503 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 00:59:51,051 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 00:59:51,067 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 00:59:51,067 [INFO] Model loaded.
+2025-11-23 00:59:51,380 [INFO] CNN warmup done.
+2025-11-23 00:59:51,380 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 00:59:56,265 [INFO] DeepFace preloaded.
+2025-11-23 00:59:56,265 [INFO] Embedding worker started.
+2025-11-23 00:59:56,265 [ERROR] run_liveness_once failed: 'UltraLiveness' object has no attribute 'run_capture'
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1135, in run_liveness_once
+    result = det.run_capture(max_runtime_seconds=timeout_seconds)
+AttributeError: 'UltraLiveness' object has no attribute 'run_capture'
+2025-11-23 00:59:56,276 [INFO] Shutdown requested.
+2025-11-23 00:59:56,780 [INFO] [embed-worker] Exiting.
+2025-11-23 00:59:56,791 [INFO] Shutdown complete.

@@ -1,0 +1,27 @@
+2025-12-02 16:08:56,945 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-12-02 16:08:58,366 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-12-02 16:08:58,366 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-12-02 16:08:58,574 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-02 16:08:58,574 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-12-02 16:08:58,582 [INFO] Model loaded.
+2025-12-02 16:08:58,732 [INFO] CNN warmup done.
+2025-12-02 16:08:58,732 [INFO] Preloading DeepFace Facenet model...
+2025-12-02 16:09:00,759 [INFO] DeepFace preloaded.
+2025-12-02 16:09:00,761 [INFO] Embedding worker started.
+2025-12-02 16:09:02,027 [INFO] Starting capture loop on camera 0
+2025-12-02 16:09:06,278 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=12a7315b463d90e0)
+2025-12-02 16:09:06,747 [INFO] Say 'HELLO' challenge confirmed.
+2025-12-02 16:09:07,559 [INFO] Smile challenge confirmed.
+2025-12-02 16:09:08,254 [ERROR] run_liveness_once failed: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\smooth.dispatch.cpp:294: error: (-215:Assertion failed) ksize.width > 0 && ksize.width % 2 == 1 && ksize.height > 0 && ksize.height % 2 == 1 in function 'cv::createGaussianKernels'
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1501, in run_liveness_once
+    result = det.run(max_runtime_seconds=timeout_seconds)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1409, in run
+    draw_scanner_overlay(frame, x1, y1, x2, y2, now)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 770, in draw_scanner_overlay
+    final = cv2.GaussianBlur(frame, (0,0), int(0.9 * scale))
+cv2.error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\smooth.dispatch.cpp:294: error: (-215:Assertion failed) ksize.width > 0 && ksize.width % 2 == 1 && ksize.height > 0 && ksize.height % 2 == 1 in function 'cv::createGaussianKernels'
+
+2025-12-02 16:09:08,254 [INFO] Shutdown requested.
+2025-12-02 16:09:08,354 [INFO] [embed-worker] Exiting.
+2025-12-02 16:09:08,716 [INFO] Shutdown complete.

@@ -1,0 +1,77 @@
+2025-11-23 02:44:52,436 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-11-23 02:45:00,174 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 02:45:00,174 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 02:45:00,794 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 02:45:00,813 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 02:45:00,872 [INFO] Model loaded.
+2025-11-23 02:45:01,338 [INFO] CNN warmup done.
+2025-11-23 02:45:01,338 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 02:45:07,664 [INFO] DeepFace preloaded.
+2025-11-23 02:45:07,664 [INFO] Embedding worker started.
+2025-11-23 02:45:10,175 [INFO] Starting capture loop on camera 0
+2025-11-23 02:45:12,790 [INFO] Stabilization complete — sequence: ['SMILE', 'TURN_RIGHT', 'SAY_HELLO', 'BLINK', 'TURN_LEFT', 'DONE'] (nonce=6eb50274a4d4bb63)
+2025-11-23 02:45:13,242 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 02:45:14,073 [INFO] Smile challenge confirmed.
+2025-11-23 02:45:14,408 [INFO] Turn-right challenge confirmed.
+2025-11-23 02:45:15,955 [INFO] Turn-left challenge confirmed.
+2025-11-23 02:45:37,448 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-23 02:45:45,493 [INFO] Saved live image: live_captures\live_20251122_211538.jpg
+2025-11-23 02:45:45,493 [INFO] Saved template embedding: embeddings\embed_20251122_211538.npy
+2025-11-23 02:45:45,493 [INFO] Saved metadata: embeddings\meta_20251122_211538.json
+2025-11-23 02:45:45,493 [INFO] Embedding SHA256 (salted): cd097f5c928a45992d44efa12c72937822bb40a49bb23ab0502dee808e4059a1
+2025-11-23 02:45:45,493 [INFO] Stopping capture loop due to DONE -> final verdict.
+2025-11-23 02:45:45,749 [INFO] [embed-worker] Exiting.
+2025-11-23 02:45:45,934 [INFO] Capture loop stopped.
+2025-11-23 02:45:45,936 [INFO] Shutdown requested.
+2025-11-23 02:45:45,936 [INFO] Shutdown complete.
+2025-11-23 02:46:18,022 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 02:46:18,022 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 02:46:18,420 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 02:46:18,433 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 02:46:18,438 [INFO] Model loaded.
+2025-11-23 02:46:18,931 [INFO] CNN warmup done.
+2025-11-23 02:46:18,931 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 02:46:18,931 [INFO] DeepFace preloaded.
+2025-11-23 02:46:18,931 [INFO] Embedding worker started.
+2025-11-23 02:46:20,646 [INFO] Starting capture loop on camera 0
+2025-11-23 02:46:23,211 [INFO] Stabilization complete — sequence: ['TURN_RIGHT', 'SMILE', 'TURN_LEFT', 'SAY_HELLO', 'BLINK', 'DONE'] (nonce=3d99a4e544d650f4)
+2025-11-23 02:46:23,599 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 02:46:24,393 [INFO] Smile challenge confirmed.
+2025-11-23 02:46:24,706 [INFO] Turn-right challenge confirmed.
+2025-11-23 02:46:26,516 [INFO] Turn-left challenge confirmed.
+2025-11-23 02:46:38,862 [INFO] Blink challenge confirmed.
+2025-11-23 02:46:38,862 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 02:46:42,852 [INFO] Saved live image: live_captures\live_20251122_211640.jpg
+2025-11-23 02:46:42,860 [INFO] Saved template embedding: embeddings\embed_20251122_211640.npy
+2025-11-23 02:46:42,861 [INFO] Saved metadata: embeddings\meta_20251122_211640.json
+2025-11-23 02:46:42,861 [INFO] Embedding SHA256 (salted): 8c6ee004eae960724feff623bc44804ce70d8940b4f69e3ee8a6a52d4e47893b
+2025-11-23 02:46:42,943 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 02:46:43,243 [INFO] [embed-worker] Exiting.
+2025-11-23 02:46:43,335 [INFO] Capture loop stopped.
+2025-11-23 02:46:43,338 [INFO] Shutdown requested.
+2025-11-23 02:46:43,339 [INFO] Shutdown complete.
+2025-11-23 02:46:57,615 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 02:46:57,615 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 02:46:57,999 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 02:46:58,007 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 02:46:58,015 [INFO] Model loaded.
+2025-11-23 02:46:58,507 [INFO] CNN warmup done.
+2025-11-23 02:46:58,507 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 02:46:58,507 [INFO] DeepFace preloaded.
+2025-11-23 02:46:58,507 [INFO] Embedding worker started.
+2025-11-23 02:46:59,999 [INFO] Starting capture loop on camera 0
+2025-11-23 02:47:04,074 [INFO] Stabilization complete — sequence: ['BLINK', 'SMILE', 'TURN_RIGHT', 'SAY_HELLO', 'TURN_LEFT', 'DONE'] (nonce=9c35eb167ba279c6)
+2025-11-23 02:47:04,448 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 02:47:05,071 [INFO] Smile challenge confirmed.
+2025-11-23 02:47:05,272 [INFO] Blink challenge confirmed.
+2025-11-23 02:47:11,084 [INFO] Turn-right challenge confirmed.
+2025-11-23 02:47:31,393 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-23 02:47:42,877 [INFO] Saved live image: live_captures\live_20251122_211732.jpg
+2025-11-23 02:47:42,877 [INFO] Saved template embedding: embeddings\embed_20251122_211732.npy
+2025-11-23 02:47:42,879 [INFO] Saved metadata: embeddings\meta_20251122_211732.json
+2025-11-23 02:47:42,879 [INFO] Embedding SHA256 (salted): 0a17d61a91e964bd683221736e072cdbc1abfdf16f5cb59acdc2da6a974c3ca9
+2025-11-23 02:47:42,879 [INFO] Stopping capture loop due to DONE -> final verdict.
+2025-11-23 02:47:43,149 [INFO] [embed-worker] Exiting.
+2025-11-23 02:47:43,275 [INFO] Capture loop stopped.
+2025-11-23 02:47:43,275 [INFO] Shutdown requested.
+2025-11-23 02:47:43,284 [INFO] Shutdown complete.

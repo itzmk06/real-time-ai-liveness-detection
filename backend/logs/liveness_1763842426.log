@@ -1,0 +1,19 @@
+2025-11-23 01:43:46,928 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 01:43:47,210 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 01:43:47,210 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 01:43:47,210 [INFO] Model loaded.
+2025-11-23 01:43:47,600 [INFO] CNN warmup done.
+2025-11-23 01:43:47,600 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 01:43:50,784 [INFO] DeepFace preloaded.
+2025-11-23 01:43:50,793 [INFO] Embedding worker started.
+2025-11-23 01:43:51,850 [INFO] Starting capture loop on camera 0
+2025-11-23 01:43:52,570 [ERROR] Unhandled exception in main run: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1491, in main
+    det.run(max_runtime_seconds=args.max_runtime)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 758, in run
+    if len(seq) > 0:
+TypeError: object of type 'NoneType' has no len()
+2025-11-23 01:43:52,570 [INFO] Shutdown requested.
+2025-11-23 01:43:52,817 [INFO] [embed-worker] Exiting.
+2025-11-23 01:43:54,082 [INFO] Shutdown complete.

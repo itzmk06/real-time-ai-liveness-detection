@@ -1,0 +1,50 @@
+2025-11-23 01:08:46,780 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 01:08:47,547 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 01:08:47,600 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 01:08:47,601 [INFO] Model loaded.
+2025-11-23 01:08:47,984 [INFO] CNN warmup done.
+2025-11-23 01:08:47,984 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 01:08:52,672 [INFO] DeepFace preloaded.
+2025-11-23 01:08:52,681 [INFO] Embedding worker started.
+2025-11-23 01:08:54,998 [INFO] Starting capture loop on camera 0
+2025-11-23 01:08:57,648 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=ba116ca312abb56f)
+2025-11-23 01:08:57,917 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 01:08:58,359 [INFO] Smile challenge confirmed.
+2025-11-23 01:08:59,960 [INFO] Turn-right challenge confirmed.
+2025-11-23 01:09:04,128 [INFO] Blink challenge confirmed.
+2025-11-23 01:09:05,111 [INFO] Turn-left challenge confirmed.
+2025-11-23 01:09:05,111 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 01:09:12,234 [INFO] Saved live image: live_captures\live_20251122_193905.jpg
+2025-11-23 01:09:12,234 [INFO] Saved template embedding: embeddings\embed_20251122_193905.npy
+2025-11-23 01:09:12,234 [INFO] Saved metadata: embeddings\meta_20251122_193905.json
+2025-11-23 01:09:12,234 [INFO] Embedding SHA256 (salted): a5a8b9730077bfbde894fa7cb55fc23ed0c320d71f399d675ee1ee8382e171fa
+2025-11-23 01:09:12,261 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 01:09:12,483 [INFO] [embed-worker] Exiting.
+2025-11-23 01:09:12,606 [INFO] Capture loop stopped.
+2025-11-23 01:09:12,606 [INFO] Shutdown requested.
+2025-11-23 01:09:12,606 [INFO] Shutdown complete.
+2025-11-23 01:09:32,364 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 01:09:32,737 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 01:09:32,749 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 01:09:32,749 [INFO] Model loaded.
+2025-11-23 01:09:33,310 [INFO] CNN warmup done.
+2025-11-23 01:09:33,311 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 01:09:33,313 [INFO] DeepFace preloaded.
+2025-11-23 01:09:33,317 [INFO] Embedding worker started.
+2025-11-23 01:09:34,931 [INFO] Starting capture loop on camera 0
+2025-11-23 01:09:37,488 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_RIGHT', 'TURN_LEFT', 'SAY_HELLO', 'SMILE', 'DONE'] (nonce=49ee4c1da39336e9)
+2025-11-23 01:09:37,744 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 01:09:38,245 [INFO] Smile challenge confirmed.
+2025-11-23 01:09:39,110 [INFO] Blink challenge confirmed.
+2025-11-23 01:09:45,395 [INFO] Turn-right challenge confirmed.
+2025-11-23 01:09:48,814 [INFO] Turn-left challenge confirmed.
+2025-11-23 01:09:48,816 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 01:09:57,859 [INFO] Saved live image: live_captures\live_20251122_193949.jpg
+2025-11-23 01:09:57,859 [INFO] Saved template embedding: embeddings\embed_20251122_193949.npy
+2025-11-23 01:09:57,859 [INFO] Saved metadata: embeddings\meta_20251122_193949.json
+2025-11-23 01:09:57,859 [INFO] Embedding SHA256 (salted): 04722fc0c679e14b45bd23a3e0a5632750a00d9d0a419ac36ae68eed8bf66952
+2025-11-23 01:09:57,935 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 01:09:58,173 [INFO] [embed-worker] Exiting.
+2025-11-23 01:09:58,343 [INFO] Capture loop stopped.
+2025-11-23 01:09:58,349 [INFO] Shutdown requested.
+2025-11-23 01:09:58,349 [INFO] Shutdown complete.

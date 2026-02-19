@@ -1,0 +1,48 @@
+2025-11-23 13:14:56,480 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-11-23 13:15:04,141 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 13:15:04,142 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 13:15:04,707 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 13:15:04,724 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 13:15:04,728 [INFO] Model loaded.
+2025-11-23 13:15:05,210 [INFO] CNN warmup done.
+2025-11-23 13:15:05,211 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 13:15:11,761 [INFO] DeepFace preloaded.
+2025-11-23 13:15:11,765 [INFO] Embedding worker started.
+2025-11-23 13:15:14,657 [INFO] Starting capture loop on camera 0
+2025-11-23 13:15:16,917 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'BLINK', 'SAY_HELLO', 'TURN_RIGHT', 'SMILE', 'DONE'] (nonce=2fd770df0685bf20)
+2025-11-23 13:15:17,285 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 13:15:17,594 [INFO] Smile challenge confirmed.
+2025-11-23 13:15:18,411 [INFO] Blink challenge confirmed.
+2025-11-23 13:15:31,979 [INFO] Turn-right challenge confirmed.
+2025-11-23 13:15:35,285 [INFO] Turn-left challenge confirmed.
+2025-11-23 13:15:35,285 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 13:15:47,466 [INFO] Saved live image: live_captures\live_20251123_074536.jpg
+2025-11-23 13:15:47,467 [INFO] Saved template embedding: embeddings\embed_20251123_074536.npy
+2025-11-23 13:15:47,468 [INFO] Saved metadata: embeddings\meta_20251123_074536.json
+2025-11-23 13:15:47,469 [INFO] Embedding SHA256 (salted): d12f433304fefe6cfb67f2acc6e5e692453700489b8eb74d7e0844cb3ed362d2
+2025-11-23 13:15:47,516 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 13:15:47,916 [INFO] Capture loop stopped.
+2025-11-23 13:15:47,917 [INFO] Shutdown requested.
+2025-11-23 13:15:48,007 [INFO] [embed-worker] Exiting.
+2025-11-23 13:15:48,009 [INFO] Shutdown complete.
+2025-11-23 13:15:58,094 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 13:15:58,095 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 13:15:58,444 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 13:15:58,456 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 13:15:58,457 [INFO] Model loaded.
+2025-11-23 13:15:58,955 [INFO] CNN warmup done.
+2025-11-23 13:15:58,957 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 13:15:58,957 [INFO] DeepFace preloaded.
+2025-11-23 13:15:58,960 [INFO] Embedding worker started.
+2025-11-23 13:16:02,254 [INFO] Starting capture loop on camera 0
+2025-11-23 13:16:08,680 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_RIGHT', 'TURN_LEFT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=bc663818497b27d5)
+2025-11-23 13:16:08,918 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 13:16:09,196 [INFO] Smile challenge confirmed.
+2025-11-23 13:16:10,409 [INFO] Blink challenge confirmed.
+2025-11-23 13:16:17,650 [INFO] Turn-right challenge confirmed.
+2025-11-23 13:16:37,237 [WARNING] Final Verdict (immediate DONE): Spoof Detected
+2025-11-23 13:16:37,238 [INFO] Stopping capture loop due to DONE -> Spoof.
+2025-11-23 13:16:37,737 [INFO] [embed-worker] Exiting.
+2025-11-23 13:16:39,067 [INFO] Capture loop stopped.
+2025-11-23 13:16:39,074 [INFO] Shutdown requested.
+2025-11-23 13:16:39,075 [INFO] Shutdown complete.

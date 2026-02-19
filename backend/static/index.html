@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Liveness Web Client</title>
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; background:#111; color:#eee; display:flex; gap:16px; padding:16px; }
+    #left { display:flex; flex-direction:column; gap:8px; }
+    video, canvas { border-radius:8px; background:#000; }
+    #controls { margin-top:8px; }
+    .badge { padding:6px 10px; background:#222; border-radius:6px; display:inline-block; }
+  </style>
+</head>
+<body>
+  <div id="left">
+    <video id="video" autoplay playsinline width="480" height="360"></video>
+    <div id="controls">
+      <button id="startBtn">Start</button>
+      <button id="stopBtn" disabled>Stop</button>
+      <button id="resetBtn">Reset</button>
+      <span class="badge" id="stateBadge">STATE: idle</span>
+    </div>
+  </div>
+  <div id="right">
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div style="margin-top:8px;">
+      <div>Progress: <span id="progress">0</span>%</div>
+      <div>Challenge: <span id="challenge">-</span></div>
+      <div>Final Verdict: <span id="verdict">-</span></div>
+    </div>
+  </div>
+
+<script>
+const wsUrl = (location.protocol === "https:" ? "wss://" : "ws://") + location.host + "/ws";
+let ws, sendLoop=null;
+const video = document.getElementById("video");
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+const startBtn = document.getElementById("startBtn");
+const stopBtn = document.getElementById("stopBtn");
+const resetBtn = document.getElementById("resetBtn");
+const stateBadge = document.getElementById("stateBadge");
+const progressEl = document.getElementById("progress");
+const challengeEl = document.getElementById("challenge");
+const verdictEl = document.getElementById("verdict");
+
+async function startCamera() {
+  const stream = await navigator.mediaDevices.getUserMedia({ video: { width: 640, height: 480 }, audio:false });
+  video.srcObject = stream;
+  await video.play();
+}
+
+function connectWS() {
+  ws = new WebSocket(wsUrl);
+  ws.addEventListener("open", ()=> {
+    console.log("ws open");
+    stateBadge.textContent = "STATE: connected";
+  });
+  ws.addEventListener("message", (ev) => {
+    try {
+      const msg = JSON.parse(ev.data);
+      if (msg.type === "frame_response") {
+        // draw returned annotated frame
+        const img = new Image();
+        img.onload = () => {
+          canvas.width = img.width;
+          canvas.height = img.height;
+          ctx.drawImage(img, 0, 0);
+        };
+        img.src = msg.b64;
+        challengeEl.textContent = msg.challenge_state || "-";
+        progressEl.textContent = msg.progress || "0";
+        verdictEl.textContent = msg.final_verdict || "-";
+      } else if (msg.type === "embedding_done") {
+        console.log("embedding metadata:", msg.meta);
+      }
+    } catch(e) { console.warn(e); }
+  });
+  ws.addEventListener("close", ()=> {
+    console.log("ws closed");
+    stateBadge.textContent = "STATE: disconnected";
+  });
+  ws.addEventListener("error", ()=> {
+    stateBadge.textContent = "STATE: error";
+  });
+}
+
+function stopWS() {
+  try { if (ws && ws.readyState === WebSocket.OPEN) ws.close(); } catch(e) {}
+}
+
+function sendFrame() {
+  if (!ws || ws.readyState !== WebSocket.OPEN) return;
+  // capture current video frame into canvas
+  const tx = document.createElement("canvas");
+  tx.width = 640;
+  tx.height = 480;
+  const tctx = tx.getContext("2d");
+  tctx.drawImage(video, 0, 0, tx.width, tx.height);
+  // encode to JPEG base64
+  tx.toDataURL("image/jpeg", 0.8, (function(){}) );
+  const b64 = tx.toDataURL("image/jpeg", 0.7);
+  const payload = { type: "frame", b64: b64 };
+  ws.send(JSON.stringify(payload));
+}
+
+startBtn.onclick = async () => {
+  startBtn.disabled = true;
+  stopBtn.disabled = false;
+  await startCamera();
+  connectWS();
+  // send frames at ~8-12 FPS
+  sendLoop = setInterval(sendFrame, 100); // 10 FPS (100 ms)
+  stateBadge.textContent = "STATE: running";
+};
+
+stopBtn.onclick = () => {
+  startBtn.disabled = false;
+  stopBtn.disabled = true;
+  if (sendLoop) { clearInterval(sendLoop); sendLoop = null; }
+  try { const tracks = video.srcObject.getTracks(); tracks.forEach(t=>t.stop()); } catch(e){}
+  stopWS();
+  stateBadge.textContent = "STATE: stopped";
+};
+
+resetBtn.onclick = () => {
+  if (ws && ws.readyState === WebSocket.OPEN) {
+    ws.send(JSON.stringify({ type: "control", cmd: "reset" }));
+  }
+  progressEl.textContent = "0";
+  challengeEl.textContent = "-";
+  verdictEl.textContent = "-";
+};
+</script>
+</body>
+</html>

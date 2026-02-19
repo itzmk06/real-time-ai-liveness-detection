@@ -1,0 +1,1310 @@
+2025-11-23 22:11:22,574 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-11-23 22:11:25,881 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 22:11:25,881 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 22:11:26,058 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 22:11:26,060 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 22:11:26,062 [INFO] Model loaded.
+2025-11-23 22:11:26,214 [INFO] CNN warmup done.
+2025-11-23 22:11:26,214 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 22:11:27,906 [INFO] DeepFace preloaded.
+2025-11-23 22:11:27,906 [INFO] Embedding worker started.
+2025-11-23 22:11:29,138 [INFO] Starting capture loop on camera 0
+2025-11-23 22:11:34,197 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=76b68f187adee4cb)
+2025-11-23 22:11:34,646 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:11:35,355 [INFO] Smile challenge confirmed.
+2025-11-23 22:11:39,649 [INFO] Blink challenge confirmed.
+2025-11-23 22:11:40,418 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:11:43,596 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:11:43,596 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 22:11:48,637 [INFO] Saved live image: live_captures\live_20251123_164143.jpg
+2025-11-23 22:11:48,643 [INFO] Saved template embedding: embeddings\embed_20251123_164143.npy
+2025-11-23 22:11:48,643 [INFO] Saved metadata: embeddings\meta_20251123_164143.json
+2025-11-23 22:11:48,643 [INFO] Embedding SHA256 (salted): 1d5a155f33dd886cb3b2de04c2c3cf2d479e9b33e1f07e7fae2e5440f4dd7250
+2025-11-23 22:11:48,672 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 22:11:48,679 [INFO] [embed-worker] Exiting.
+2025-11-23 22:11:49,060 [INFO] Capture loop stopped.
+2025-11-23 22:11:49,061 [INFO] Shutdown requested.
+2025-11-23 22:11:49,061 [INFO] Shutdown complete.
+2025-11-23 22:12:53,760 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 22:12:53,762 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 22:12:54,415 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 22:12:54,438 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 22:12:54,441 [INFO] Model loaded.
+2025-11-23 22:12:55,231 [INFO] CNN warmup done.
+2025-11-23 22:12:55,234 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 22:12:55,236 [INFO] DeepFace preloaded.
+2025-11-23 22:12:55,240 [INFO] Embedding worker started.
+2025-11-23 22:12:56,925 [INFO] Starting capture loop on camera 0
+2025-11-23 22:13:02,009 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=b1067225b5ef140d)
+2025-11-23 22:13:02,882 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:13:04,148 [INFO] Smile challenge confirmed.
+2025-11-23 22:13:06,133 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:13:13,729 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:13:26,898 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-23 22:13:43,426 [INFO] Saved live image: live_captures\live_20251123_164326.jpg
+2025-11-23 22:13:43,430 [INFO] Saved template embedding: embeddings\embed_20251123_164326.npy
+2025-11-23 22:13:43,431 [INFO] Saved metadata: embeddings\meta_20251123_164326.json
+2025-11-23 22:13:43,431 [INFO] Embedding SHA256 (salted): eb6a39cdbb7383bfac265e2df8f1002e97bb8010904f40453b047a68172e4eb7
+2025-11-23 22:13:43,431 [INFO] Stopping capture loop due to DONE -> final verdict.
+2025-11-23 22:13:43,725 [INFO] [embed-worker] Exiting.
+2025-11-23 22:13:43,884 [INFO] Capture loop stopped.
+2025-11-23 22:13:43,886 [INFO] Shutdown requested.
+2025-11-23 22:13:43,888 [INFO] Shutdown complete.
+2025-11-23 22:14:52,886 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 22:14:52,887 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 22:14:53,414 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 22:14:53,431 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 22:14:53,437 [INFO] Model loaded.
+2025-11-23 22:14:54,291 [INFO] CNN warmup done.
+2025-11-23 22:14:54,292 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 22:14:54,292 [INFO] DeepFace preloaded.
+2025-11-23 22:14:54,298 [INFO] Embedding worker started.
+2025-11-23 22:14:56,892 [INFO] Starting capture loop on camera 0
+2025-11-23 22:15:02,004 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=d985cf25ff73a146)
+2025-11-23 22:15:02,827 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:15:04,150 [INFO] Smile challenge confirmed.
+2025-11-23 22:15:05,412 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:15:13,842 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:15:26,529 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-23 22:15:26,585 [WARNING] No captures to save.
+2025-11-23 22:15:26,585 [INFO] Stopping capture loop due to DONE -> final verdict.
+2025-11-23 22:15:26,693 [INFO] [embed-worker] Exiting.
+2025-11-23 22:15:27,002 [INFO] Capture loop stopped.
+2025-11-23 22:15:27,014 [INFO] Shutdown requested.
+2025-11-23 22:15:27,014 [INFO] Shutdown complete.
+2025-11-23 22:18:11,076 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 22:18:11,078 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 22:18:11,486 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 22:18:11,502 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 22:18:11,502 [INFO] Model loaded.
+2025-11-23 22:18:11,994 [INFO] CNN warmup done.
+2025-11-23 22:18:11,995 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 22:18:11,996 [INFO] DeepFace preloaded.
+2025-11-23 22:18:11,997 [INFO] Embedding worker started.
+2025-11-23 22:18:13,840 [INFO] Starting capture loop on camera 0
+2025-11-23 22:18:18,911 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=15a48d3615b29992)
+2025-11-23 22:18:19,295 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:18:19,778 [INFO] Smile challenge confirmed.
+2025-11-23 22:18:21,445 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:18:29,062 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:18:34,477 [INFO] Blink challenge confirmed.
+2025-11-23 22:18:34,484 [WARNING] Not enough frontal aligned captures (0)
+2025-11-23 22:18:39,325 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=52c5b2e48d52b857)
+2025-11-23 22:18:39,641 [WARNING] Not enough frontal aligned captures (0)
+2025-11-23 22:18:48,550 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=75f8d7fda3acbba2)
+2025-11-23 22:18:48,970 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:18:49,460 [INFO] Smile challenge confirmed.
+2025-11-23 22:18:50,658 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:18:58,337 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:19:13,466 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-23 22:19:19,563 [INFO] Saved live image: live_captures\live_20251123_164913.jpg
+2025-11-23 22:19:19,564 [INFO] Saved template embedding: embeddings\embed_20251123_164913.npy
+2025-11-23 22:19:19,567 [INFO] Saved metadata: embeddings\meta_20251123_164913.json
+2025-11-23 22:19:19,567 [INFO] Embedding SHA256 (salted): 924234ed635ac879874977c5696acdd1b54c96778771037323748d752c9c695d
+2025-11-23 22:19:19,569 [INFO] Stopping capture loop due to DONE -> final verdict.
+2025-11-23 22:19:19,834 [INFO] [embed-worker] Exiting.
+2025-11-23 22:19:19,963 [INFO] Capture loop stopped.
+2025-11-23 22:19:19,974 [INFO] Shutdown requested.
+2025-11-23 22:19:19,974 [INFO] Shutdown complete.
+2025-11-23 22:26:57,066 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 22:26:57,069 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 22:26:57,214 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 22:26:57,217 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 22:26:57,219 [INFO] Model loaded.
+2025-11-23 22:26:57,346 [INFO] CNN warmup done.
+2025-11-23 22:26:57,348 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 22:26:57,348 [INFO] DeepFace preloaded.
+2025-11-23 22:26:57,348 [INFO] Embedding worker started.
+2025-11-23 22:26:58,227 [INFO] Starting capture loop on camera 0
+2025-11-23 22:27:03,276 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=41622fa1ed7b64d5)
+2025-11-23 22:27:03,518 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:27:03,870 [INFO] Smile challenge confirmed.
+2025-11-23 22:27:04,208 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:27:10,751 [INFO] Blink challenge confirmed.
+2025-11-23 22:27:11,834 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:27:11,834 [WARNING] Not enough frontal aligned captures (0)
+2025-11-23 22:27:16,803 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=a401c453029ce792)
+2025-11-23 22:27:16,967 [WARNING] Not enough frontal aligned captures (0)
+2025-11-23 22:27:24,958 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=70310f402bdcceb7)
+2025-11-23 22:27:25,257 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:27:25,662 [INFO] Smile challenge confirmed.
+2025-11-23 22:27:27,982 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:27:34,168 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:27:46,066 [INFO] Blink challenge confirmed.
+2025-11-23 22:27:46,066 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 22:27:46,951 [INFO] Saved live image: live_captures\live_20251123_165746.jpg
+2025-11-23 22:27:46,951 [INFO] Saved template embedding: embeddings\embed_20251123_165746.npy
+2025-11-23 22:27:46,951 [INFO] Saved metadata: embeddings\meta_20251123_165746.json
+2025-11-23 22:27:46,951 [INFO] Embedding SHA256 (salted): d37e2387ccf63560746e7fc2a6457bfabb32f297b78357bb960c07585b9bd434
+2025-11-23 22:27:46,990 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 22:27:47,096 [INFO] [embed-worker] Exiting.
+2025-11-23 22:27:47,321 [INFO] Capture loop stopped.
+2025-11-23 22:27:47,330 [INFO] Shutdown requested.
+2025-11-23 22:27:47,334 [INFO] Shutdown complete.
+2025-11-23 22:41:19,514 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 22:41:19,516 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 22:41:19,906 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 22:41:19,917 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 22:41:19,919 [INFO] Model loaded.
+2025-11-23 22:41:20,397 [INFO] CNN warmup done.
+2025-11-23 22:41:20,397 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 22:41:20,397 [INFO] DeepFace preloaded.
+2025-11-23 22:41:20,409 [INFO] Embedding worker started.
+2025-11-23 22:41:22,402 [INFO] Starting capture loop on camera 0
+2025-11-23 22:41:27,464 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=bb7db74079c0fd30)
+2025-11-23 22:41:28,053 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:41:29,052 [INFO] Smile challenge confirmed.
+2025-11-23 22:41:29,983 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:41:37,892 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:41:50,646 [INFO] Blink challenge confirmed.
+2025-11-23 22:41:50,650 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 22:41:54,681 [INFO] Saved live image: live_captures\live_20251123_171150.jpg
+2025-11-23 22:41:54,683 [INFO] Saved template embedding: embeddings\embed_20251123_171150.npy
+2025-11-23 22:41:54,683 [INFO] Saved metadata: embeddings\meta_20251123_171150.json
+2025-11-23 22:41:54,683 [INFO] Embedding SHA256 (salted): 4959a9210b431cf5559340d92379bef4dbda87494d48befe18bedab47d236725
+2025-11-23 22:41:54,716 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 22:41:54,790 [INFO] [embed-worker] Exiting.
+2025-11-23 22:41:55,125 [INFO] Capture loop stopped.
+2025-11-23 22:41:55,128 [INFO] Shutdown requested.
+2025-11-23 22:41:55,129 [INFO] Shutdown complete.
+2025-11-23 22:53:18,851 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-23 22:53:18,854 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 22:53:19,514 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 22:53:19,544 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 22:53:19,554 [INFO] Model loaded.
+2025-11-23 22:53:20,233 [INFO] CNN warmup done.
+2025-11-23 22:53:20,235 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 22:53:20,236 [INFO] DeepFace preloaded.
+2025-11-23 22:53:20,238 [INFO] Embedding worker started.
+2025-11-23 22:53:23,134 [INFO] Starting capture loop on camera 0
+2025-11-23 22:53:28,260 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=9dd5ada2aede8903)
+2025-11-23 22:53:29,128 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 22:53:29,485 [INFO] Blink challenge confirmed.
+2025-11-23 22:53:30,355 [INFO] Smile challenge confirmed.
+2025-11-23 22:53:32,758 [INFO] Turn-right challenge confirmed.
+2025-11-23 22:53:41,182 [INFO] Turn-left challenge confirmed.
+2025-11-23 22:53:41,184 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 22:53:53,196 [INFO] Saved live image: live_captures\live_20251123_172341.jpg
+2025-11-23 22:53:53,198 [INFO] Saved template embedding: embeddings\embed_20251123_172341.npy
+2025-11-23 22:53:53,199 [INFO] Saved metadata: embeddings\meta_20251123_172341.json
+2025-11-23 22:53:53,201 [INFO] Embedding SHA256 (salted): de50e2984ef13da7b5106fbf543c3f82fd3426baffee2442e348223a3b9e97a6
+2025-11-23 22:53:53,265 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 22:53:53,610 [INFO] [embed-worker] Exiting.
+2025-11-23 22:53:53,739 [INFO] Capture loop stopped.
+2025-11-23 22:53:53,740 [INFO] Shutdown requested.
+2025-11-23 22:53:53,741 [INFO] Shutdown complete.
+2025-11-24 06:20:47,731 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-24 06:20:47,731 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-24 06:20:48,007 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-24 06:20:48,021 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-24 06:20:48,021 [INFO] Model loaded.
+2025-11-24 06:20:48,338 [INFO] CNN warmup done.
+2025-11-24 06:20:48,338 [INFO] Preloading DeepFace Facenet model...
+2025-11-24 06:20:48,338 [INFO] DeepFace preloaded.
+2025-11-24 06:20:48,338 [INFO] Embedding worker started.
+2025-11-24 06:20:49,214 [INFO] Starting capture loop on camera 0
+2025-11-24 06:20:54,273 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=d35e9042046d11c3)
+2025-11-24 06:20:54,571 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-24 06:20:55,095 [INFO] Smile challenge confirmed.
+2025-11-24 06:20:55,940 [INFO] Turn-right challenge confirmed.
+2025-11-24 06:21:02,825 [INFO] Turn-left challenge confirmed.
+2025-11-24 06:21:18,645 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-24 06:21:21,974 [INFO] Saved live image: live_captures\live_20251124_005118.jpg
+2025-11-24 06:21:21,974 [INFO] Saved template embedding: embeddings\embed_20251124_005118.npy
+2025-11-24 06:21:21,974 [INFO] Saved metadata: embeddings\meta_20251124_005118.json
+2025-11-24 06:21:21,974 [INFO] Embedding SHA256 (salted): 239b4d4c357120cd1ba9fec2eec8a6952e4ca56db93cfe3d45f5c25c9362ea3d
+2025-11-24 06:21:21,974 [INFO] Stopping capture loop due to DONE -> final verdict.
+2025-11-24 06:21:22,025 [INFO] [embed-worker] Exiting.
+2025-11-24 06:21:22,336 [INFO] Capture loop stopped.
+2025-11-24 06:21:22,336 [INFO] Shutdown requested.
+2025-11-24 06:21:22,336 [INFO] Shutdown complete.
+2025-11-24 06:33:34,516 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-24 06:33:34,518 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-24 06:33:35,211 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-24 06:33:35,239 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-24 06:33:35,250 [INFO] Model loaded.
+2025-11-24 06:33:36,116 [INFO] CNN warmup done.
+2025-11-24 06:33:36,119 [INFO] Preloading DeepFace Facenet model...
+2025-11-24 06:33:36,122 [INFO] DeepFace preloaded.
+2025-11-24 06:33:36,127 [INFO] Embedding worker started.
+2025-11-24 06:33:39,442 [INFO] Starting capture loop on camera 0
+2025-11-24 06:33:44,550 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=28425103427198bb)
+2025-11-24 06:33:45,216 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-24 06:33:46,258 [INFO] Smile challenge confirmed.
+2025-11-24 06:33:47,249 [INFO] Turn-right challenge confirmed.
+2025-11-24 06:33:56,202 [INFO] Turn-left challenge confirmed.
+2025-11-24 06:34:09,596 [INFO] Final Verdict (DONE -> LIVE): Live Verified (DONE-minimums)
+2025-11-24 06:34:30,266 [INFO] Saved live image: live_captures\live_20251124_010409.jpg
+2025-11-24 06:34:30,272 [INFO] Saved template embedding: embeddings\embed_20251124_010409.npy
+2025-11-24 06:34:30,272 [INFO] Saved metadata: embeddings\meta_20251124_010409.json
+2025-11-24 06:34:30,273 [INFO] Embedding SHA256 (salted): 2a3405e4f1e9c9f49a2bb8c13e2448d3dd520828e89fef9b172b1ec214c0691a
+2025-11-24 06:34:30,274 [INFO] Stopping capture loop due to DONE -> final verdict.
+2025-11-24 06:34:30,742 [INFO] Capture loop stopped.
+2025-11-24 06:34:30,747 [INFO] Shutdown requested.
+2025-11-24 06:34:30,757 [INFO] [embed-worker] Exiting.
+2025-11-24 06:34:30,759 [INFO] Shutdown complete.
+2025-11-24 07:01:36,383 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-24 07:01:36,383 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-24 07:01:36,774 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-24 07:01:36,783 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-24 07:01:36,791 [INFO] Model loaded.
+2025-11-24 07:01:37,355 [INFO] CNN warmup done.
+2025-11-24 07:01:37,357 [INFO] Preloading DeepFace Facenet model...
+2025-11-24 07:01:37,357 [INFO] DeepFace preloaded.
+2025-11-24 07:01:37,360 [INFO] Embedding worker started.
+2025-11-24 07:01:39,839 [INFO] Starting capture loop on camera 0
+2025-11-24 07:01:44,949 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=d34d1efeb5dac0fc)
+2025-11-24 07:01:45,750 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-24 07:01:46,839 [INFO] Smile challenge confirmed.
+2025-11-24 07:01:47,610 [INFO] Turn-right challenge confirmed.
+2025-11-24 07:01:56,290 [INFO] Turn-left challenge confirmed.
+2025-11-24 07:02:08,944 [INFO] Blink challenge confirmed.
+2025-11-24 07:02:08,947 [WARNING] Not enough frontal aligned captures (0)
+2025-11-24 07:02:13,538 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=58ab141a9e364b1c)
+2025-11-24 07:02:13,802 [WARNING] Not enough frontal aligned captures (0)
+2025-11-24 07:02:18,612 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=60425fa5935f2b9f)
+2025-11-24 07:02:18,893 [WARNING] Not enough frontal aligned captures (0)
+2025-11-24 07:02:28,509 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=a6373d62ef771f10)
+2025-11-24 07:02:29,138 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-24 07:02:29,433 [INFO] Blink challenge confirmed.
+2025-11-24 07:02:30,078 [INFO] Smile challenge confirmed.
+2025-11-24 07:02:30,944 [INFO] Turn-right challenge confirmed.
+2025-11-24 07:02:39,110 [INFO] Turn-left challenge confirmed.
+2025-11-24 07:02:39,112 [INFO] FINAL VERDICT: Live Verified
+2025-11-24 07:02:42,290 [INFO] Saved live image: live_captures\live_20251124_013239.jpg
+2025-11-24 07:02:42,292 [INFO] Saved template embedding: embeddings\embed_20251124_013239.npy
+2025-11-24 07:02:42,293 [INFO] Saved metadata: embeddings\meta_20251124_013239.json
+2025-11-24 07:02:42,293 [INFO] Embedding SHA256 (salted): 6517fdb2f4d5a35ffa3a9004f9e5ec80464e4405d0851a001c4ee27ea12acb1b
+2025-11-24 07:02:42,380 [INFO] Stopping capture loop due to final verdict.
+2025-11-24 07:02:42,482 [INFO] [embed-worker] Exiting.
+2025-11-24 07:02:42,823 [INFO] Capture loop stopped.
+2025-11-24 07:02:42,823 [INFO] Shutdown requested.
+2025-11-24 07:02:42,823 [INFO] Shutdown complete.
+2025-11-24 08:50:33,576 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-24 08:50:33,583 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-24 08:50:35,161 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-24 08:50:35,283 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-24 08:50:35,287 [INFO] Model loaded.
+2025-11-24 08:50:36,156 [INFO] CNN warmup done.
+2025-11-24 08:50:36,156 [INFO] Preloading DeepFace Facenet model...
+2025-11-24 08:50:36,161 [INFO] DeepFace preloaded.
+2025-11-24 08:50:36,168 [INFO] Embedding worker started.
+2025-11-24 08:50:39,150 [INFO] Starting capture loop on camera 0
+2025-11-24 08:50:45,608 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=f2a164502e1f65fa)
+2025-11-24 08:50:46,448 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-24 08:50:47,872 [INFO] Smile challenge confirmed.
+2025-11-24 08:50:50,131 [INFO] Turn-right challenge confirmed.
+2025-11-24 08:50:58,635 [INFO] Turn-left challenge confirmed.
+2025-11-24 08:51:08,909 [INFO] Blink challenge confirmed.
+2025-11-24 08:51:08,914 [INFO] FINAL VERDICT: Live Verified
+2025-11-24 08:51:37,241 [INFO] Saved live image: live_captures\live_20251124_032109.jpg
+2025-11-24 08:51:37,243 [INFO] Saved template embedding: embeddings\embed_20251124_032109.npy
+2025-11-24 08:51:37,243 [INFO] Saved metadata: embeddings\meta_20251124_032109.json
+2025-11-24 08:51:37,246 [INFO] Embedding SHA256 (salted): d9a3f21a345c51da35716bee57271caa5559273b1853384588635ad74414eaaf
+2025-11-24 08:51:37,353 [INFO] Stopping capture loop due to final verdict.
+2025-11-24 08:51:37,446 [INFO] [embed-worker] Exiting.
+2025-11-24 08:51:37,842 [INFO] Capture loop stopped.
+2025-11-24 08:51:37,846 [INFO] Shutdown requested.
+2025-11-24 08:51:37,849 [INFO] Shutdown complete.
+2025-11-24 08:55:16,890 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-11-24 08:55:16,891 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-24 08:55:17,453 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-24 08:55:17,474 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-24 08:55:17,480 [INFO] Model loaded.
+2025-11-24 08:55:18,363 [INFO] CNN warmup done.
+2025-11-24 08:55:18,370 [INFO] Preloading DeepFace Facenet model...
+2025-11-24 08:55:18,371 [INFO] DeepFace preloaded.
+2025-11-24 08:55:18,376 [INFO] Embedding worker started.
+2025-11-24 08:55:22,792 [INFO] Starting capture loop on camera 0
+2025-11-24 08:55:22,935 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,004 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,078 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,139 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,195 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,260 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,321 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,389 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,444 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,511 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,569 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,637 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,692 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,754 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,812 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,866 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,935 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:23,996 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,058 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,125 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,183 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,250 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,312 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,367 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,435 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,494 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,560 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,627 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,687 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,743 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,810 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,872 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,927 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:24,993 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,051 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,113 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,170 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,230 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,282 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,335 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,398 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,460 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,513 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,570 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,629 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,694 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,750 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,804 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,863 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,921 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:25,980 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,040 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,109 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,168 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,236 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,303 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,368 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,427 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,487 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,548 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,602 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,660 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,726 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,787 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,842 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,903 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:26,960 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,018 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,075 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,149 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,204 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,271 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,331 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,385 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,443 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,507 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,562 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,625 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,683 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,744 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,802 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,859 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,917 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:27,987 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,052 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,118 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,177 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,238 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,294 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,350 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,411 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,470 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,528 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,594 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,659 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,718 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,784 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,842 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,904 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:28,961 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,020 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,086 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,151 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,203 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,261 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,320 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,375 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,429 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,496 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,551 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,609 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,668 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,734 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,792 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,855 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,910 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:29,970 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,034 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,093 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,147 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,213 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,267 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,326 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,383 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,442 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,496 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,558 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,620 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,679 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,744 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,801 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,861 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,917 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:30,983 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,046 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,112 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,170 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,242 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,305 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,376 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,435 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,494 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,551 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,618 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,684 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,742 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,802 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,860 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,918 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:31,975 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,042 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,109 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,177 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,235 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,293 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,354 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,416 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,472 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,537 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,594 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,648 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,709 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,768 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,827 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,887 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:32,949 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,012 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,077 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,134 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,191 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,252 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,309 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,362 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,422 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,484 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,542 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,601 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,656 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,720 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,775 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,832 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,887 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:33,942 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,002 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,069 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,124 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,185 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,241 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,300 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,358 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,419 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,475 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,535 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,593 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,658 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,713 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,775 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,833 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,894 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:34,952 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,018 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,076 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,133 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,200 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,267 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,329 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,385 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,443 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,500 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,559 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,617 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,674 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,727 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,783 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,847 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,924 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:35,981 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,042 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,100 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,161 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,228 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,290 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,351 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,417 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,479 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,533 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,600 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,657 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,721 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,776 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,837 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,896 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:36,951 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,010 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,076 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,129 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,191 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,254 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,310 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,367 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,434 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,495 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,551 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,615 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,678 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,734 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,793 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,853 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,910 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:37,968 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,026 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,092 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,159 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,216 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,271 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,335 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,400 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,458 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,515 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,583 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,644 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,709 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,768 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,835 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,904 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:38,965 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,027 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,082 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,140 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,202 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,268 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,324 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,383 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,443 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,500 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,562 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,620 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,683 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,742 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,807 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,874 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,937 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:39,997 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,058 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,111 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,171 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,228 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,283 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,344 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,402 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,459 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,512 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,566 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,622 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,684 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,739 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,802 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,858 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,915 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:40,970 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,026 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,082 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,146 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,206 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,275 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,335 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,394 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,449 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,509 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,567 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,625 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,682 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,745 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,799 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,857 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,921 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:41,976 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,034 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,091 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,152 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,216 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,276 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,337 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,399 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,461 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,523 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,577 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,641 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,696 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,750 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,804 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,864 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,925 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:42,982 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,046 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,116 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,171 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,228 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,283 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,339 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,399 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,457 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,525 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,581 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,640 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,706 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,772 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,827 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,885 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:43,941 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,009 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,075 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,141 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,201 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,267 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,325 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,380 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,440 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,499 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,559 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,623 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,678 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,738 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,798 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,856 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,925 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:44,982 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,047 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,112 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,171 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,236 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,297 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,352 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,411 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,474 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,530 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,582 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,639 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,699 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,759 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,814 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,872 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:45,939 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,014 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,081 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,140 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,198 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,272 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,347 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,406 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,481 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,540 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,607 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,664 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,722 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,781 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,856 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,915 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:46,972 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,039 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,097 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,156 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,215 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,273 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,332 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,397 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,464 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,531 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,597 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,656 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,715 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,781 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,842 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,897 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:47,957 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,014 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,081 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,137 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,198 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,262 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,322 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,389 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,464 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,523 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,588 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,648 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,704 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,764 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,831 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,897 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:48,963 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,022 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,079 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,140 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,198 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,263 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,330 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,384 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,439 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,498 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,570 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,631 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,689 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,757 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,823 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,880 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:49,939 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,000 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,056 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,127 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,180 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,246 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,305 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,363 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,421 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,487 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,561 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,614 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,680 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,739 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,805 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,872 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:50,938 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,013 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,074 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,131 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,200 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,255 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,322 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,380 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,447 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,514 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,573 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,629 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,689 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,756 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,822 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,882 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:51,947 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,006 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,064 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,122 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,188 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,263 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,331 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,398 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,455 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,522 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,590 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,655 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,713 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,788 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,848 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,914 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:52,980 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,053 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,107 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,170 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,230 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,297 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,354 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,413 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,472 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,529 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,589 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,647 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,712 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,771 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,823 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,889 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:53,955 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,021 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,080 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,147 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,205 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,271 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,330 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,398 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,463 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,532 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,590 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,647 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,707 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,763 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,822 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,889 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:54,954 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,021 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,080 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,146 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,221 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,273 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,328 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,388 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,447 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,504 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,563 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,621 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,695 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,755 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,813 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,871 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,924 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:55,980 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,032 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,089 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,154 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,223 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,287 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,363 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,429 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,497 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,558 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,613 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,680 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,737 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,797 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,855 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,926 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:56,979 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,046 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,120 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,180 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,246 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,321 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,380 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,446 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,513 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,571 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,638 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,704 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,763 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,822 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,879 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:57,937 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,009 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,078 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,146 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,213 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,272 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,329 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,388 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,447 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,504 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,562 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,621 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,682 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,739 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,796 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,854 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,914 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:58,971 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,038 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,095 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,154 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,209 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,277 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,341 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,399 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,462 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,517 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,572 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,633 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,692 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,750 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,813 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,866 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,930 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:55:59,983 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,038 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,105 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,166 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,225 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,290 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,347 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,407 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,466 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,523 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,580 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,642 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,706 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,767 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,824 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,883 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:00,940 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,005 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,058 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,124 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,186 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,247 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,316 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,371 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,440 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,497 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,557 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,614 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,672 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,733 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,797 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,850 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,906 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:01,965 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,024 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,082 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,138 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,199 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,265 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,332 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,392 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,446 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,505 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,566 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,630 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,692 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,750 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,803 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,870 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,938 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:02,993 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,057 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,116 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,170 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,230 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,290 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,349 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,405 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,465 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,521 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,588 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,646 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,705 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,764 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,823 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,881 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:03,942 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,008 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,065 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,123 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,191 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,246 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,300 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,357 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,422 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,481 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,547 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,609 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,665 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,725 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,784 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,845 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,898 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:04,957 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,021 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,080 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,138 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,190 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,257 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,318 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,379 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,441 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,497 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,556 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,623 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,682 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,742 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,805 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,866 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,925 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:05,988 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,044 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,105 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,165 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,223 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,290 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,346 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,402 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,466 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,523 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,581 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,639 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,705 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,763 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,830 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,896 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:06,964 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,024 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,079 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,137 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,207 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,264 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,323 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,377 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,437 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,490 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,548 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,604 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,663 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,730 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,788 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,842 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,906 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:07,964 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,023 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,081 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,137 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,196 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,254 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,315 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,373 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,431 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,488 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,554 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,612 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,671 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,727 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,785 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,841 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,908 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:08,963 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,021 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,079 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,139 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,204 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,262 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,315 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,374 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,439 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,496 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,553 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,614 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,674 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,731 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,788 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,855 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,922 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:09,987 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,056 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,123 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,179 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,232 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,299 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,358 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,423 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,486 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,546 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,608 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,665 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,730 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,788 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,847 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,911 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:10,963 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,023 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,089 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,147 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,203 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,264 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,320 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,379 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,448 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,508 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,568 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,623 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,680 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,734 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,789 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,847 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,904 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:11,970 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,031 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,090 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,145 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,204 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,263 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,322 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,389 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,454 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,512 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,578 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,638 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,704 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,770 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,837 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,903 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:12,965 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,025 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,082 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,137 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,198 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,263 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,319 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,388 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,453 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,515 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,573 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,628 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,682 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,742 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,803 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,866 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,921 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:13,980 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,046 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,103 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,170 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,228 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,290 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,345 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,403 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,464 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,521 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,580 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,636 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,701 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,756 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,813 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,871 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,936 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:14,990 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,048 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,106 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,173 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,230 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,285 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,339 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,397 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,456 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,515 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,581 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,639 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,705 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,771 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,830 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,897 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:15,955 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,020 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,072 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,130 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,191 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,257 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,326 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,389 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,444 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,511 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,574 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,637 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,697 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,761 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,826 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,879 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,940 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:16,998 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,053 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,111 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,164 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,223 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,283 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,344 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,411 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,473 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,537 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,597 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,663 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,721 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,779 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,846 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,906 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:17,962 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,022 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,080 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,139 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,207 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,264 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,323 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,389 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,445 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,506 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,569 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,628 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,687 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,744 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,799 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,853 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:18,920 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,000 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,060 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,122 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,188 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,253 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,314 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,371 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,437 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,496 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,553 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,611 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,670 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,727 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,788 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,846 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,910 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:19,971 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,031 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,086 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,154 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,212 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,266 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,328 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,388 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,447 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,510 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,577 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,630 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,693 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,753 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,807 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,864 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,921 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:20,981 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,036 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,094 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,152 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,211 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,277 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,335 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,397 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,463 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,521 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,595 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,651 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,711 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,777 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,838 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,902 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:21,961 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,021 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,079 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,140 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,194 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,258 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,324 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,380 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,437 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,494 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,556 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,621 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,684 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,763 [WARNING] Frame read failed; sleeping briefly.
+2025-11-24 08:56:22,827 [INFO] Max runtime reached; exiting loop.
+2025-11-24 08:56:22,931 [INFO] Capture loop stopped.
+2025-11-24 08:56:22,932 [INFO] Shutdown requested.
+2025-11-24 08:56:23,223 [INFO] [embed-worker] Exiting.
+2025-11-24 08:56:23,223 [INFO] Shutdown complete.

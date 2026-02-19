@@ -1,0 +1,23 @@
+2025-12-06 12:24:05,220 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-12-06 12:24:14,343 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-12-06 12:24:14,351 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-12-06 12:24:14,645 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-06 12:24:14,645 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-12-06 12:24:14,645 [INFO] Model loaded.
+2025-12-06 12:24:14,924 [INFO] CNN warmup done.
+2025-12-06 12:24:14,924 [INFO] Preloading DeepFace Facenet model...
+2025-12-06 12:24:17,917 [INFO] DeepFace preloaded.
+2025-12-06 12:24:17,917 [INFO] Embedding worker started.
+2025-12-06 12:24:19,261 [INFO] Starting capture loop on camera 0
+2025-12-06 12:24:23,507 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=1878a5f57d739870)
+2025-12-06 12:24:23,877 [INFO] Say 'HELLO' challenge confirmed.
+2025-12-06 12:24:24,424 [INFO] Smile challenge confirmed.
+2025-12-06 12:24:25,539 [INFO] Turn-right challenge confirmed.
+2025-12-06 12:24:33,323 [INFO] Turn-left challenge confirmed.
+2025-12-06 12:24:40,128 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=1f73ad8150f037cf)
+2025-12-06 12:25:07,375 [WARNING] Final Verdict (immediate DONE): Spoof Detected
+2025-12-06 12:25:07,375 [INFO] Stopping capture loop due to DONE -> Spoof.
+2025-12-06 12:25:07,638 [INFO] [embed-worker] Exiting.
+2025-12-06 12:25:07,799 [INFO] Capture loop stopped.
+2025-12-06 12:25:07,802 [INFO] Shutdown requested.
+2025-12-06 12:25:07,802 [INFO] Shutdown complete.

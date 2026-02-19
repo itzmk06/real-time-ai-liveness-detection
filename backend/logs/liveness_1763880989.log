@@ -1,0 +1,10 @@
+2025-11-23 12:26:29,836 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-11-23 12:46:38,882 [ERROR] Error in verification:
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\liveness_service.py", line 70, in verify_embeddings_final
+    metrics = fused_score(a, b, alpha=ALPHA)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\liveness_service.py", line 55, in fused_score
+    cos = cosine_similarity(emb_a, emb_b)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\liveness_service.py", line 47, in cosine_similarity
+    return float(np.dot(a, b) / ((np.linalg.norm(a) * np.linalg.norm(b)) + EPS))
+ValueError: shapes (30,) and (128,) not aligned: 30 (dim 0) != 128 (dim 0)

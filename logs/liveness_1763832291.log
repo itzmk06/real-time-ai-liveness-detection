@@ -1,0 +1,130 @@
+2025-11-22 22:54:51,343 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-22 22:54:51,670 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-22 22:54:51,670 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-22 22:54:51,670 [INFO] Model loaded.
+2025-11-22 22:54:51,889 [INFO] CNN warmup done.
+2025-11-22 22:54:51,889 [INFO] Preloading DeepFace Facenet model...
+2025-11-22 22:54:53,959 [INFO] DeepFace preloaded.
+2025-11-22 22:54:53,959 [INFO] Embedding worker started.
+2025-11-22 22:54:55,429 [INFO] Starting capture loop on camera 0
+2025-11-22 22:55:00,213 [INFO] Stabilization complete — sequence: ['TURN_RIGHT', 'TURN_LEFT', 'BLINK', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=d06736a72cd2dfcc)
+2025-11-22 22:55:00,850 [INFO] Smile challenge confirmed.
+2025-11-22 22:55:01,610 [INFO] Blink challenge confirmed.
+2025-11-22 22:55:02,371 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:55:03,104 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:55:28,429 [WARNING] Final Verdict (immediate DONE): Spoof Detected
+2025-11-22 22:55:31,225 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:55:37,782 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'SAY_HELLO', 'BLINK', 'SMILE', 'TURN_RIGHT', 'DONE'] (nonce=c0945db115a09937)
+2025-11-22 22:55:38,293 [INFO] Blink challenge confirmed.
+2025-11-22 22:55:38,404 [INFO] Smile challenge confirmed.
+2025-11-22 22:56:03,954 [WARNING] Final Verdict (immediate DONE): Spoof Detected
+2025-11-22 22:56:06,809 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:56:12,770 [INFO] Stabilization complete — sequence: ['SMILE', 'BLINK', 'SAY_HELLO', 'TURN_LEFT', 'TURN_RIGHT', 'DONE'] (nonce=81e8d244c16c3736)
+2025-11-22 22:56:12,984 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:56:13,212 [INFO] Blink challenge confirmed.
+2025-11-22 22:56:13,466 [INFO] Smile challenge confirmed.
+2025-11-22 22:56:13,729 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:56:35,853 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:56:35,853 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:56:38,340 [INFO] Stabilization complete — sequence: ['TURN_RIGHT', 'SMILE', 'BLINK', 'SAY_HELLO', 'TURN_LEFT', 'DONE'] (nonce=1a9f7af0fabf6bdd)
+2025-11-22 22:56:38,461 [INFO] Final Verdict: Live Verified (avg_live=1.000, progress=100%, z_mean=0.006045, peak_live=1.000, aligned=1)
+2025-11-22 22:56:38,461 [INFO] Scheduled embedding task.
+2025-11-22 22:56:38,461 [INFO] [embed-worker] Creating embedding (verdict=Live Verified, frames=1)
+2025-11-22 22:56:39,736 [INFO] Saved live image: live_captures\live_20251122_172638.jpg
+2025-11-22 22:56:39,737 [INFO] Saved template embedding: embeddings\embed_20251122_172638.npy
+2025-11-22 22:56:39,738 [INFO] Saved metadata: embeddings\meta_20251122_172638.json
+2025-11-22 22:56:39,740 [INFO] Embedding SHA256 (salted): f1602cc75674b34fc7eb98fda442fba39be91997d32d99505230b82f094fd475
+2025-11-22 22:56:39,742 [INFO] [embed-worker] Embedding saved: embeddings\embed_20251122_172638.npy
+2025-11-22 22:56:41,584 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:56:44,079 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_RIGHT', 'TURN_LEFT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=ac2925c22dbaf382)
+2025-11-22 22:56:44,600 [INFO] Smile challenge confirmed.
+2025-11-22 22:56:45,529 [INFO] Blink challenge confirmed.
+2025-11-22 22:56:48,693 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:56:51,106 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:56:51,306 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:56:51,306 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:56:53,743 [INFO] Stabilization complete — sequence: ['TURN_RIGHT', 'SMILE', 'BLINK', 'SAY_HELLO', 'TURN_LEFT', 'DONE'] (nonce=864303839b4b973a)
+2025-11-22 22:56:53,844 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:56:56,747 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'SMILE', 'TURN_RIGHT', 'BLINK', 'SAY_HELLO', 'DONE'] (nonce=b91661b8d1e05128)
+2025-11-22 22:56:56,901 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:56:59,269 [INFO] Stabilization complete — sequence: ['TURN_LEFT', 'TURN_RIGHT', 'SAY_HELLO', 'BLINK', 'SMILE', 'DONE'] (nonce=16742518859cafb7)
+2025-11-22 22:56:59,368 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:57:06,610 [INFO] Stabilization complete — sequence: ['TURN_RIGHT', 'TURN_LEFT', 'SMILE', 'SAY_HELLO', 'BLINK', 'DONE'] (nonce=d10c1c3e626838f4)
+2025-11-22 22:57:07,237 [INFO] Smile challenge confirmed.
+2025-11-22 22:57:08,310 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:57:08,310 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:57:09,731 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:57:22,798 [INFO] Blink challenge confirmed.
+2025-11-22 22:57:22,798 [INFO] Final Verdict: Live Verified (avg_live=1.000, progress=100%, z_mean=0.005076, peak_live=1.000, aligned=2)
+2025-11-22 22:57:22,798 [INFO] Scheduled embedding task.
+2025-11-22 22:57:22,798 [INFO] [embed-worker] Creating embedding (verdict=Live Verified, frames=2)
+2025-11-22 22:57:25,419 [INFO] Saved live image: live_captures\live_20251122_172722.jpg
+2025-11-22 22:57:25,419 [INFO] Saved template embedding: embeddings\embed_20251122_172722.npy
+2025-11-22 22:57:25,419 [INFO] Saved metadata: embeddings\meta_20251122_172722.json
+2025-11-22 22:57:25,419 [INFO] Embedding SHA256 (salted): 1c8f1a0ffa7e9655c4c50ce1de3e6bfcb1311243860f062b738da65045ea024a
+2025-11-22 22:57:25,419 [INFO] [embed-worker] Embedding saved: embeddings\embed_20251122_172722.npy
+2025-11-22 22:57:25,623 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:57:28,139 [INFO] Stabilization complete — sequence: ['SMILE', 'BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SAY_HELLO', 'DONE'] (nonce=fdf9d169ae161081)
+2025-11-22 22:57:28,838 [INFO] Smile challenge confirmed.
+2025-11-22 22:57:29,259 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:57:29,509 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:57:31,379 [INFO] Blink challenge confirmed.
+2025-11-22 22:57:46,706 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:57:46,706 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:57:49,159 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'TURN_LEFT', 'DONE'] (nonce=618c37fc3296e34d)
+2025-11-22 22:57:49,369 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:57:51,823 [INFO] Stabilization complete — sequence: ['SMILE', 'BLINK', 'SAY_HELLO', 'TURN_LEFT', 'TURN_RIGHT', 'DONE'] (nonce=4bb27ffc2d5e2e23)
+2025-11-22 22:57:51,923 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:57:54,361 [INFO] Stabilization complete — sequence: ['SAY_HELLO', 'BLINK', 'SMILE', 'TURN_LEFT', 'TURN_RIGHT', 'DONE'] (nonce=f4d76ac2241130b4)
+2025-11-22 22:57:54,478 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 22:58:01,149 [INFO] Stabilization complete — sequence: ['BLINK', 'SAY_HELLO', 'SMILE', 'TURN_RIGHT', 'TURN_LEFT', 'DONE'] (nonce=6167660aa0e77e62)
+2025-11-22 22:58:01,691 [INFO] Smile challenge confirmed.
+2025-11-22 22:58:03,519 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:58:06,096 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:58:09,717 [INFO] Blink challenge confirmed.
+2025-11-22 22:58:19,846 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:58:19,846 [INFO] Final Verdict: Live Verified (avg_live=1.000, progress=100%, z_mean=0.007488, peak_live=1.000, aligned=1)
+2025-11-22 22:58:19,846 [INFO] Scheduled embedding task.
+2025-11-22 22:58:19,846 [INFO] [embed-worker] Creating embedding (verdict=Live Verified, frames=1)
+2025-11-22 22:58:20,757 [INFO] Saved live image: live_captures\live_20251122_172819.jpg
+2025-11-22 22:58:20,757 [INFO] Saved template embedding: embeddings\embed_20251122_172819.npy
+2025-11-22 22:58:20,757 [INFO] Saved metadata: embeddings\meta_20251122_172819.json
+2025-11-22 22:58:20,757 [INFO] Embedding SHA256 (salted): 5f53aced75367450b9b73454812f192e143608bba9a582362c039d3489eb778e
+2025-11-22 22:58:20,757 [INFO] [embed-worker] Embedding saved: embeddings\embed_20251122_172819.npy
+2025-11-22 22:58:22,761 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:58:30,969 [INFO] Stabilization complete — sequence: ['SMILE', 'SAY_HELLO', 'TURN_LEFT', 'BLINK', 'TURN_RIGHT', 'DONE'] (nonce=044603a54737c5b0)
+2025-11-22 22:58:31,736 [INFO] Smile challenge confirmed.
+2025-11-22 22:58:32,280 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:58:32,915 [INFO] Blink challenge confirmed.
+2025-11-22 22:58:42,590 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:58:57,261 [WARNING] Final Verdict (immediate DONE): Spoof Detected
+2025-11-22 22:59:00,174 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:59:03,264 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_RIGHT', 'SAY_HELLO', 'TURN_LEFT', 'SMILE', 'DONE'] (nonce=78baaccef8bedd72)
+2025-11-22 22:59:04,725 [INFO] Smile challenge confirmed.
+2025-11-22 22:59:07,146 [INFO] Turn-right challenge confirmed.
+2025-11-22 22:59:09,398 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:59:10,154 [INFO] Turn-left challenge confirmed.
+2025-11-22 22:59:26,301 [INFO] Blink challenge confirmed.
+2025-11-22 22:59:26,303 [INFO] Final Verdict: Live Verified (avg_live=0.973, progress=100%, z_mean=0.005594, peak_live=1.000, aligned=6)
+2025-11-22 22:59:26,303 [INFO] Scheduled embedding task.
+2025-11-22 22:59:26,305 [INFO] [embed-worker] Creating embedding (verdict=Live Verified, frames=6)
+2025-11-22 22:59:29,286 [INFO] Restarting detection (post-verdict)
+2025-11-22 22:59:31,837 [INFO] Stabilization complete — sequence: ['SAY_HELLO', 'SMILE', 'TURN_RIGHT', 'BLINK', 'TURN_LEFT', 'DONE'] (nonce=41ab3f78bdc10338)
+2025-11-22 22:59:32,792 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 22:59:33,507 [INFO] Smile challenge confirmed.
+2025-11-22 22:59:34,756 [INFO] Blink challenge confirmed.
+2025-11-22 22:59:36,589 [INFO] Signal received 2. Shutting down.
+2025-11-22 22:59:36,589 [INFO] Shutdown requested.
+2025-11-22 22:59:37,880 [INFO] Saved live image: live_captures\live_20251122_172926.jpg
+2025-11-22 22:59:37,882 [INFO] Saved template embedding: embeddings\embed_20251122_172926.npy
+2025-11-22 22:59:37,883 [INFO] Saved metadata: embeddings\meta_20251122_172926.json
+2025-11-22 22:59:37,883 [INFO] Embedding SHA256 (salted): dfae7eceedc5da4547b183b1afce64d8fa54d0054baaa06b642d49ec59d75e92
+2025-11-22 22:59:37,885 [INFO] [embed-worker] Embedding saved: embeddings\embed_20251122_172926.npy
+2025-11-22 22:59:37,885 [INFO] [embed-worker] Exiting.
+2025-11-22 22:59:37,887 [INFO] Signal received 2. Shutting down.
+2025-11-22 22:59:37,887 [INFO] Shutdown requested.
+2025-11-22 22:59:40,820 [INFO] Shutdown complete.
+2025-11-22 22:59:40,825 [INFO] Shutdown complete.
+2025-11-22 22:59:41,397 [INFO] Capture loop stopped.
+2025-11-22 22:59:41,410 [INFO] Shutdown requested.
+2025-11-22 22:59:41,410 [INFO] Shutdown complete.

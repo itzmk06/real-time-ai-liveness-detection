@@ -1,0 +1,54 @@
+2025-11-22 23:57:37,424 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-22 23:57:38,035 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-22 23:57:38,058 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-22 23:57:38,060 [INFO] Model loaded.
+2025-11-22 23:57:38,578 [INFO] CNN warmup done.
+2025-11-22 23:57:38,578 [INFO] Preloading DeepFace Facenet model...
+2025-11-22 23:57:45,052 [INFO] DeepFace preloaded.
+2025-11-22 23:57:45,052 [INFO] Embedding worker started.
+2025-11-22 23:57:46,935 [INFO] Starting capture loop on camera 0
+2025-11-22 23:57:49,567 [INFO] Stabilization complete — sequence: ['SMILE', 'SAY_HELLO', 'TURN_RIGHT', 'BLINK', 'TURN_LEFT', 'DONE'] (nonce=bd8172ac18df6e39)
+2025-11-22 23:57:51,848 [INFO] Smile challenge confirmed.
+2025-11-22 23:57:53,363 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 23:58:02,922 [INFO] Turn-left challenge confirmed.
+2025-11-22 23:58:04,612 [INFO] Turn-right challenge confirmed.
+2025-11-22 23:58:14,268 [WARNING] Final Verdict (immediate DONE): Spoof Detected
+2025-11-22 23:58:17,148 [INFO] Restarting detection (post-verdict)
+2025-11-22 23:58:19,669 [INFO] Stabilization complete — sequence: ['SMILE', 'SAY_HELLO', 'BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'DONE'] (nonce=44e22e1b8296616e)
+2025-11-22 23:58:20,844 [INFO] Smile challenge confirmed.
+2025-11-22 23:58:20,973 [INFO] Blink challenge confirmed.
+2025-11-22 23:58:21,119 [INFO] Turn-right challenge confirmed.
+2025-11-22 23:58:21,541 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 23:58:45,065 [INFO] Turn-left challenge confirmed.
+2025-11-22 23:58:45,065 [WARNING] Not enough frontal aligned captures (0)
+2025-11-22 23:58:46,943 [INFO] Max runtime reached; exiting loop.
+2025-11-22 23:58:47,858 [INFO] Capture loop stopped.
+2025-11-22 23:58:47,869 [INFO] Shutdown requested.
+2025-11-22 23:58:48,033 [INFO] [embed-worker] Exiting.
+2025-11-22 23:58:48,033 [INFO] Shutdown complete.
+2025-11-22 23:59:05,911 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-22 23:59:06,196 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-22 23:59:06,196 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-22 23:59:06,213 [INFO] Model loaded.
+2025-11-22 23:59:06,552 [INFO] CNN warmup done.
+2025-11-22 23:59:06,552 [INFO] Preloading DeepFace Facenet model...
+2025-11-22 23:59:06,554 [INFO] DeepFace preloaded.
+2025-11-22 23:59:06,554 [INFO] Embedding worker started.
+2025-11-22 23:59:07,984 [INFO] Starting capture loop on camera 0
+2025-11-22 23:59:10,611 [INFO] Stabilization complete — sequence: ['SAY_HELLO', 'BLINK', 'TURN_LEFT', 'SMILE', 'TURN_RIGHT', 'DONE'] (nonce=07ca39faa1098658)
+2025-11-22 23:59:11,904 [INFO] Smile challenge confirmed.
+2025-11-22 23:59:12,291 [INFO] Turn-right challenge confirmed.
+2025-11-22 23:59:20,055 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 23:59:33,325 [INFO] Turn-left challenge confirmed.
+2025-11-22 23:59:36,565 [WARNING] Final Verdict (immediate DONE): Spoof Detected
+2025-11-22 23:59:39,406 [INFO] Restarting detection (post-verdict)
+2025-11-22 23:59:41,925 [INFO] Stabilization complete — sequence: ['TURN_RIGHT', 'SAY_HELLO', 'BLINK', 'SMILE', 'TURN_LEFT', 'DONE'] (nonce=aa980fc5dd1db18c)
+2025-11-22 23:59:42,841 [INFO] Smile challenge confirmed.
+2025-11-22 23:59:44,281 [INFO] Turn-right challenge confirmed.
+2025-11-22 23:59:45,879 [INFO] Turn-left challenge confirmed.
+2025-11-22 23:59:47,222 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-22 23:59:59,943 [INFO] Blink challenge confirmed.
+2025-11-22 23:59:59,943 [INFO] Final Verdict: Live Verified (avg_live=1.000, progress=100%, z_mean=0.006509, peak_live=1.000, aligned=6)
+2025-11-22 23:59:59,943 [INFO] Scheduled embedding task.
+2025-11-22 23:59:59,943 [INFO] [embed-worker] Creating embedding (verdict=Live Verified, frames=6)
+2025-11-23 00:00:02,926 [INFO] Restarting detection (post-verdict)

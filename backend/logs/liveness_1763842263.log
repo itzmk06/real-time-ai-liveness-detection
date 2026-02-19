@@ -1,0 +1,19 @@
+2025-11-23 01:41:03,202 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 01:41:03,505 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 01:41:03,509 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 01:41:03,509 [INFO] Model loaded.
+2025-11-23 01:41:03,734 [INFO] CNN warmup done.
+2025-11-23 01:41:03,734 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 01:41:05,690 [INFO] DeepFace preloaded.
+2025-11-23 01:41:05,690 [INFO] Embedding worker started.
+2025-11-23 01:41:06,732 [INFO] Starting capture loop on camera 0
+2025-11-23 01:41:07,517 [ERROR] Unhandled exception in main run: name 'state' is not defined
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 1491, in main
+    det.run(max_runtime_seconds=args.max_runtime)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\backend\main_liveness.py", line 738, in run
+    if state.get("face_landmarks") is not None:
+NameError: name 'state' is not defined
+2025-11-23 01:41:07,517 [INFO] Shutdown requested.
+2025-11-23 01:41:07,737 [INFO] [embed-worker] Exiting.
+2025-11-23 01:41:09,041 [INFO] Shutdown complete.

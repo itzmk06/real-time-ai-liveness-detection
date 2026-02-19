@@ -1,0 +1,27 @@
+2025-12-06 12:26:57,992 [INFO] Starting Liveness service on 0.0.0.0:7700
+2025-12-06 12:27:00,919 [INFO] Incoming request: start-liveness model=E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5 camera=0 timeout=60 show_window=True
+2025-12-06 12:27:00,956 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-12-06 12:27:01,725 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-12-06 12:27:01,774 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-12-06 12:27:01,779 [INFO] Model loaded.
+2025-12-06 12:27:02,491 [INFO] CNN warmup done.
+2025-12-06 12:27:02,491 [INFO] Preloading DeepFace Facenet model...
+2025-12-06 12:27:10,349 [INFO] DeepFace preloaded.
+2025-12-06 12:27:10,358 [INFO] Embedding worker started.
+2025-12-06 12:27:13,598 [INFO] Starting capture loop on camera 0
+2025-12-06 12:27:17,909 [INFO] Stabilization complete — sequence: ['BLINK', 'TURN_LEFT', 'TURN_RIGHT', 'SMILE', 'SAY_HELLO', 'DONE'] (nonce=4570b75bc4040dc6)
+2025-12-06 12:27:18,264 [INFO] Say 'HELLO' challenge confirmed.
+2025-12-06 12:27:18,872 [INFO] Smile challenge confirmed.
+2025-12-06 12:27:19,271 [INFO] Blink challenge confirmed.
+2025-12-06 12:27:19,498 [INFO] Turn-right challenge confirmed.
+2025-12-06 12:27:27,271 [INFO] Turn-left challenge confirmed.
+2025-12-06 12:27:27,271 [INFO] FINAL VERDICT: Live Verified
+2025-12-06 12:27:29,854 [INFO] Saved live image: live_captures\live_20251206_065727.jpg
+2025-12-06 12:27:29,854 [INFO] Saved template embedding: embeddings\embed_20251206_065727.npy
+2025-12-06 12:27:29,854 [INFO] Saved metadata: embeddings\meta_20251206_065727.json
+2025-12-06 12:27:29,854 [INFO] Embedding SHA256 (salted): 7f48b722803c28a87f94902470b416ed658f3fd52385ae6e5dd1a92413a5c94e
+2025-12-06 12:27:29,959 [INFO] Stopping capture loop due to final verdict.
+2025-12-06 12:27:30,113 [INFO] [embed-worker] Exiting.
+2025-12-06 12:27:30,347 [INFO] Capture loop stopped.
+2025-12-06 12:27:30,347 [INFO] Shutdown requested.
+2025-12-06 12:27:30,354 [INFO] Shutdown complete.

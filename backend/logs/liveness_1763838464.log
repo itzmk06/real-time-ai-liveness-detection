@@ -1,0 +1,173 @@
+2025-11-23 00:37:49,631 [INFO] Loading CNN liveliness model from: E:\Liveness-Detection-main\Liveness-Detection-main\Model (Using Dataset 600 Images)\model.h5
+2025-11-23 00:37:50,685 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-11-23 00:37:50,716 [WARNING] Error in loading the saved optimizer state. As a result, your model is starting with a freshly initialized optimizer.
+2025-11-23 00:37:50,773 [INFO] Model loaded.
+2025-11-23 00:37:51,829 [INFO] CNN warmup done.
+2025-11-23 00:37:51,830 [INFO] Preloading DeepFace Facenet model...
+2025-11-23 00:37:57,216 [INFO] DeepFace preloaded.
+2025-11-23 00:37:57,216 [INFO] Embedding worker started.
+2025-11-23 00:37:59,456 [INFO] Starting capture loop on camera 0
+2025-11-23 00:38:02,094 [INFO] Stabilization complete — sequence: ['SMILE', 'TURN_LEFT', 'TURN_RIGHT', 'BLINK', 'SAY_HELLO', 'DONE'] (nonce=07cda4d2d149118c)
+2025-11-23 00:38:02,767 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 00:38:03,524 [INFO] Smile challenge confirmed.
+2025-11-23 00:38:03,943 [INFO] Turn-right challenge confirmed.
+2025-11-23 00:38:11,016 [INFO] Turn-left challenge confirmed.
+2025-11-23 00:38:26,684 [INFO] Blink challenge confirmed.
+2025-11-23 00:38:26,684 [INFO] FINAL VERDICT: Live Verified
+2025-11-23 00:38:30,718 [INFO] Saved live image: live_captures\live_20251122_190826.jpg
+2025-11-23 00:38:30,725 [INFO] Saved template embedding: embeddings\embed_20251122_190826.npy
+2025-11-23 00:38:30,726 [INFO] Saved metadata: embeddings\meta_20251122_190826.json
+2025-11-23 00:38:30,727 [INFO] Embedding SHA256 (salted): 9a5a56855946ba770e024df6e03a8bef8e535424f2a490132e14850c5d02db1e
+2025-11-23 00:38:30,729 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 00:38:30,760 [INFO] Restarting detection (post-verdict)
+2025-11-23 00:38:33,289 [INFO] Stabilization complete — sequence: ['SAY_HELLO', 'TURN_RIGHT', 'SMILE', 'BLINK', 'TURN_LEFT', 'DONE'] (nonce=2d20116b1c33da72)
+2025-11-23 00:38:34,445 [INFO] Smile challenge confirmed.
+2025-11-23 00:38:34,623 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 00:38:34,997 [INFO] Turn-right challenge confirmed.
+2025-11-23 00:38:39,502 [INFO] Blink challenge confirmed.
+2025-11-23 00:38:42,615 [INFO] Turn-left challenge confirmed.
+2025-11-23 00:38:42,615 [INFO] FINAL VERDICT: Live Verified (peak-pass)
+2025-11-23 00:38:43,008 [INFO] Saved live image: live_captures\live_20251122_190842.jpg
+2025-11-23 00:38:43,008 [INFO] Saved template embedding: embeddings\embed_20251122_190842.npy
+2025-11-23 00:38:43,008 [INFO] Saved metadata: embeddings\meta_20251122_190842.json
+2025-11-23 00:38:43,008 [INFO] Embedding SHA256 (salted): 52921d891c50c719bb1116eb2d021ae615a63c8b8af6bd6e31152becbf570a0f
+2025-11-23 00:38:43,024 [INFO] Stopping capture loop due to final verdict.
+2025-11-23 00:38:45,425 [INFO] Restarting detection (post-verdict)
+2025-11-23 00:38:47,969 [INFO] Stabilization complete — sequence: ['SMILE', 'TURN_LEFT', 'SAY_HELLO', 'BLINK', 'TURN_RIGHT', 'DONE'] (nonce=98ba8109d4aa1ce2)
+2025-11-23 00:38:48,471 [INFO] Say 'HELLO' challenge confirmed.
+2025-11-23 00:38:49,555 [INFO] Smile challenge confirmed.
+2025-11-23 00:38:55,755 [INFO] Blink challenge confirmed.
+2025-11-23 00:38:57,310 [INFO] Turn-right challenge confirmed.
+2025-11-23 00:38:59,571 [INFO] Max runtime reached; exiting loop.
+2025-11-23 00:39:00,699 [INFO] Capture loop stopped.
+2025-11-23 00:39:00,713 [INFO] Shutdown requested.
+2025-11-23 00:39:01,144 [INFO] [embed-worker] Exiting.
+2025-11-23 00:39:01,144 [INFO] Shutdown complete.
+2025-11-23 00:39:02,013 [ERROR] Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<RequestResponseCycle.run_asgi() done, defined at E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py:407> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\_compat.py", line 60, in asyncio_run
+    return loop.run_until_complete(main)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\server.py", line 70, in serve
+    with self.capture_signals():
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 142, in __exit__
+    next(self.gen)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\server.py", line 331, in capture_signals
+    signal.raise_signal(captured_signal)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\fastapi\applications.py", line 1134, in __call__
+    await super().__call__(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\fastapi\routing.py", line 125, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\fastapi\routing.py", line 111, in app
+    response = await f(request)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\fastapi\routing.py", line 391, in app
+    raw_response = await run_endpoint_function(
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\fastapi\routing.py", line 292, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\starlette\concurrency.py", line 32, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\main.py", line 593, in run
+    server.run()
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\_compat.py", line 63, in asyncio_run
+    _cancel_all_tasks(loop)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\_compat.py", line 79, in _cancel_all_tasks
+    loop.run_until_complete(asyncio.gather(*to_cancel, return_exceptions=True))
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 603, in run_forever
+    self._run_once()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\base_events.py", line 1909, in _run_once
+    handle._run()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\uvicorn\protocols\http\httptools_impl.py", line 414, in run_asgi
+    self.logger.error(msg, exc_info=exc)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1624, in _log
+    self.handle(record)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 968, in handle
+    self.emit(record)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 943, in format
+    return fmt.format(record)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 686, in format
+    record.exc_text = self.formatException(record.exc_info)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\logging\__init__.py", line 636, in formatException
+    traceback.print_exception(ei[0], ei[1], tb, None, sio)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\traceback.py", line 119, in print_exception
+    te = TracebackException(type(value), value, tb, limit=limit, compact=True)
+  File "E:\Liveness-Detection-main\Liveness-Detection-main\liveness_venv\lib\site-packages\exceptiongroup\_formatting.py", line 96, in __init__
+    self.stack = traceback.StackSummary.extract(
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\traceback.py", line 383, in extract
+    f.line
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\traceback.py", line 306, in line
+    self._line = linecache.getline(self.filename, self.lineno)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\linecache.py", line 30, in getline
+    lines = getlines(filename, module_globals)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\linecache.py", line 46, in getlines
+    return updatecache(filename, module_globals)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\linecache.py", line 136, in updatecache
+    with tokenize.open(fullname) as fp:
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\tokenize.py", line 396, in open
+    encoding, lines = detect_encoding(buffer.readline)
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\tokenize.py", line 365, in detect_encoding
+    first = read_or_stop()
+  File "C:\Users\itzmk\AppData\Local\Programs\Python\Python310\lib\tokenize.py", line 323, in read_or_stop
+    return readline()
+KeyboardInterrupt
